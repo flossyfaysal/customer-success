@@ -23,7 +23,7 @@ Pitch upgrading from a lower-tier Duplicator Pro license to a higher tier for mo
 - Has a "soft-delete" feature — any image can be restored within 30 days.
 - Link: [WP Media Cleanup](https://wpmediacleanup.com/)
 
-**Base template:**
+**Base template (general — post-support resolution):**
 > Also, since you've got your backups running smoothly now, I wanted to share a quick tip that many of our Duplicator Pro users love.
 >
 > Have you ever noticed that your backup files are larger than they probably should be? WordPress automatically creates 5–10 different sizes for every single image you upload, and over time, hundreds of these "unused variations" sit on your server as dead weight.
@@ -35,6 +35,23 @@ Pitch upgrading from a lower-tier Duplicator Pro license to a higher tier for mo
 > - **Safe Deletion:** It has a "soft-delete" feature, so you can restore any image within 30 days if you change your mind.
 >
 > You can check it out here if you're interested: [WP Media Cleanup](https://wpmediacleanup.com/).
+
+**Variation template (power user — high site volume):**
+Use this when the customer manages a large number of sites. Reframe the pitch around scale — time savings and storage savings multiplied across many sites. Works well combined with a review ask or follow-up check-in.
+
+> Since you are managing such a high volume of sites, I also wanted to personally share a new tool we've released that might save you a significant amount of time and server space: **WP Media Cleanup**.
+>
+> Managing media libraries across hundreds of sites can be a challenge, and this plugin is built specifically to:
+>
+> - **Find and remove unused images** that are cluttering up your libraries.
+> - **Delete unnecessary thumbnails and image variations** to free up disk space.
+> - **Optimize your backups:** A cleaner media library results in much smaller and faster Duplicator backups.
+>
+> It's a great companion to Duplicator, especially for a power user like yourself. You can check out the details and plans here: [WP Media Cleanup](https://wpmediacleanup.com/)
+
+**When to use which template:**
+- **General template** → Customer just resolved a support issue and is on any plan. Focus is on the "hidden bloat" insight.
+- **Power user template** → Customer manages many sites (10+). Focus is on scale, time savings, and the "personally sharing" framing to make it feel exclusive.
 
 ### 3. Duplicator Cloud Storage
 **Key selling points:**

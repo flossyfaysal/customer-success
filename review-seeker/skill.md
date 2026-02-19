@@ -1,109 +1,103 @@
 # Skill: Review Seeker
 
-## Purpose
-Generate a personalized Trustpilot review request email after a support ticket is resolved and the customer leaves a positive rating. The goal is to convert a great support experience into a public review — without being pushy.
+Generate a personalized Trustpilot review request when a customer shows positive sentiment. Not pushy — just a natural, warm ask.
 
 ## When to Use
-- Customer issue has been fully resolved
-- Customer left a positive rating or positive feedback on the ticket
-- You've checked EDD and confirmed customer loyalty (signup date)
-- You've checked previous tickets and confirmed no review was requested before
+- Customer left a positive rating or positive feedback
+- Customer said something genuinely nice about the product
 
-## Required Inputs (User Must Provide)
-1. **Customer first name** — used in greeting
-2. **Rating/feedback quote** — the exact words the customer left (e.g., "Great and fast work...")
-3. **Issue summary** — brief description of what was resolved (e.g., "license activation issue")
-4. **Last email sent** — the closing support email so you can reference the resolution naturally
-5. **EDD signup date** — the date the customer first became a customer (e.g., 2016-07-14)
-6. **Previous tickets info** — whether there were past tickets and if a review was ever requested
+## Inputs
+- Customer name
+- Their positive words (exact quote)
+- What was resolved or discussed
+- EDD signup date (if available) — express as human-friendly duration ("nearly 10 years", not "since 2016")
+- Any extra context (leaving, long-time user, first ticket, etc.)
 
-## How to Calculate Loyalty Duration
-- Take the EDD signup date and calculate the difference from today's date
-- Express it in a way that feels impactful:
-  - 1-2 years: "over a year" or "for a couple of years"
-  - 3-5 years: "for X years"
-  - 6-9 years: "for nearly a decade"
-  - 10+ years: "for over a decade"
-- Use the human-friendly duration, not the raw date — "nearly 10 years" hits harder than "since 2016"
+## Reply Structure
+1. **Thank them** — quote their actual words, tie it to what was resolved
+2. **Appreciate loyalty** — mention duration if available, 1-2 sentences
+3. **Ask for Trustpilot review** — frame around why their voice matters, include link on its own line: https://www.trustpilot.com/evaluate/duplicator.com
+4. **Close with no pressure** — zero obligation, door open for future help
 
-## Output Structure (Follow This Order Strictly)
+## Rules
+- Conversational and warm — real human, not a bot
+- Quote their words — makes it personal
+- Never pushy — the ask is a suggestion, not the point of the email
+- Concise — scannable in under 30 seconds
+- No emojis unless the customer used them first
+- Always include: "the biggest compliment you can give us is telling others about your experience" (adapt naturally)
 
-### 1. Thank for the rating
-- Open with genuine thanks
-- Quote or reference their actual words — this feels personal, not templated
-- Briefly tie it back to the issue that was resolved
+---
 
-### 2. Appreciate their loyalty
-- Mention how long they've been a customer (use calculated duration, not raw date)
-- Make it feel like a genuine, personal observation — not a data lookup
-- Keep it warm and sincere, 1-2 sentences max
+## Prompt Library
 
-### 3. Ask for a Trustpilot review
-- Transition naturally from the loyalty appreciation
-- Frame the ask around their unique value as a long-time user
-- Give them a reason: "a few honest words from someone like you helps others feel confident"
-- Include the Trustpilot link on its own line for easy clicking:
-  https://www.trustpilot.com/evaluate/duplicator.com
-- Use the line: the biggest compliment you can give us is telling others about your experience (adapt naturally to context)
+Study all entries below before generating. Match the voice, warmth, and personalization style.
 
-### 4. Close with no pressure
-- Make it clear there's zero obligation
-- End on a positive, friendly note tied back to the resolution
-- Leave the door open for future support
+---
 
-## Tone & Style Rules
-- **Conversational and warm** — write like a real human, not a support bot
-- **Simple language** — short sentences, no corporate jargon
-- **No emojis** unless the customer used them first
-- **Not pushy** — the ask should feel like a natural extension of the conversation, not the point of the email
-- **Genuine** — every compliment should feel earned, not manufactured
-- **Concise** — the entire email should be scannable in under 30 seconds
+### Entry 1
 
-## Template (Base Reference)
+**Input:** Douglas — "Great and fast work..." — License activation issue resolved — EDD: 2016-07-14 (nearly 10 years) — Has previous tickets, never asked for review
 
-Hi [First Name],
+**Output:**
 
-Thanks so much for the rating! Your feedback is important to us, and we truly value you as a customer. :)
+> Hi Douglas,
+>
+> Thanks so much for the kind words — "great and fast work" really made my day! I'm glad we got that activation sorted out smoothly for you.
+>
+> I also couldn't help but notice you've been with us for nearly 10 years! Honestly, that kind of loyalty means the world to our team. Thank you for sticking with Duplicator through it all.
+>
+> If you have a spare minute, it would mean a lot if you could share a quick review of your experience on Trustpilot:
+> https://www.trustpilot.com/evaluate/duplicator.com
+>
+> A few honest words from a long-time user like you go a long way in helping others feel confident choosing Duplicator — and it's the biggest compliment you could give us.
+>
+> Totally no pressure, of course. I'm just glad everything's working again! And if anything else comes up down the road, I'm always here.
+>
+> Best regards,
 
-Would you be willing to take a minute to share a review of your experience using Duplicator? If so, here's where you can leave your review: https://www.trustpilot.com/evaluate/duplicator.com
+---
 
-The biggest compliment you can give is telling others about us, and I genuinely appreciate you doing so.
+### Entry 2
 
-And if you have any questions, please let me know.
+**Input:** Unknown name — "Brilliant product!" — Customer is leaving (sold most sites, winding down for financial reasons) — No EDD date — Positive sentiment despite churning
 
-Thanks!
+**Output:**
 
-> **Important:** Do NOT copy this template verbatim. Use it as a structural reference only. Every output must be personalized based on the customer's actual rating words, the specific issue resolved, and their loyalty duration. The template exists to ensure the Trustpilot link and core ask are always included — the rest should feel freshly written for that specific customer.
+> Hi [Customer Name],
+>
+> Thank you so much for the kind words — hearing you call Duplicator a "brilliant product" genuinely means a lot, especially coming from someone who's been through the full journey with it.
+>
+> I'm sorry to hear things are winding down on the site front. It sounds like it's been quite a ride over the years, and I appreciate you sticking with us through it.
+>
+> If you have a spare moment, it would mean the world to us if you could share a quick thought about your experience on Trustpilot:
+> https://www.trustpilot.com/evaluate/duplicator.com
+>
+> A few honest words from someone who's used the product as long as you have — the good and the real — would go a long way in helping others make confident decisions. It's genuinely the biggest compliment you could give us.
+>
+> Totally no pressure, of course. I wish you all the best with the remaining sales, and if you ever need anything down the road, I'm always here.
+>
+> Best regards,
 
-## Example
+---
 
-### Inputs
-- **Name:** Douglas
-- **Rating:** "Great and fast work..."
-- **Issue:** License activation issue (server-side fix pushed by team)
-- **EDD date:** 2016-07-14 (nearly 10 years)
-- **Previous tickets:** Yes, resolved but never asked for review
+### Entry 3
 
-### Output
+**Input:** Erin — "I was satisfied with the resolution" — Follow-up to negative review recovery — Erin clarified the negative rating wasn't from her, refund pending (bank holiday delay), warm and appreciative tone
 
-Hi Douglas,
+**Output:**
 
-Thanks so much for the kind words — "great and fast work" really made my day! I'm glad we got that activation sorted out smoothly for you.
-
-I also couldn't help but notice you've been with us for nearly 10 years! Honestly, that kind of loyalty means the world to our team. Thank you for sticking with Duplicator through it all.
-
-If you have a spare minute, it would mean a lot if you could share a quick review of your experience on Trustpilot:
-https://www.trustpilot.com/evaluate/duplicator.com
-
-A few honest words from a long-time user like you go a long way in helping others feel confident choosing Duplicator — and it's the biggest compliment you could give us.
-
-Totally no pressure, of course. I'm just glad everything's working again! And if anything else comes up down the road, I'm always here.
-
-Best regards,
-
-## What Makes a Great Output
-- Opens with the customer's own words — feels personal
-- Loyalty is expressed as a felt duration ("nearly 10 years"), not a database date
-- The Trustpilot ask is framed around why *their* voice matters specifically
-- The "no pressure" close is casual and genuine
-- The whole email reads like it was written by a person who actually cares — because it was
+> Hi Erin,
+>
+> That's really great to hear — I'm glad the resolution worked out and that everything's on track. And no worries about the refund timing, bank holidays always slow things down a bit. It should show up shortly.
+>
+> I really appreciate you taking the time to let us know. It means a lot that you were satisfied with how things were handled.
+>
+> If you have a spare moment, it would mean the world if you could share a quick review of your experience on Trustpilot:
+> https://www.trustpilot.com/evaluate/duplicator.com
+>
+> A few honest words from you would go a long way in helping others feel confident — and it's genuinely the biggest compliment you could give us.
+>
+> Totally no pressure, of course. And if anything else ever comes up, I'm always here.
+>
+> Best regards,

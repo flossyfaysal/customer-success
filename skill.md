@@ -15,6 +15,8 @@ This is the root skill that manages all customer success sub-skills. Use this wh
 | **Review Seeker** | `review-seeker/` | Customer left a positive rating on a resolved ticket — ask for a Trustpilot review |
 | **Upsell Pitch** | `upsell-pitch/` | Opportunity to recommend a relevant product (Duplicator Pro upgrade, WP Media Cleanup, Cloud Storage, WMGS, Elite Bundle) |
 | **Negative Review Recovery** | `negative-review/` | Customer left a negative rating on a resolved ticket — reach out to understand and rebuild trust |
+| **CX Approach** | `cx-approach/` | Proactive follow-up with a customer to check on their progress, ensure backups are working, offer hands-on help, and drive continuous success |
+| **Prompt Library** | `prompt-library/` | Need a ready-to-use prompt for a specific scenario — search the library for proven templates and real case examples |
 
 ---
 
@@ -35,6 +37,8 @@ Some replies need elements from more than one skill. Common combinations:
 | Resolved a ticket, customer is happy, and there's an upsell opportunity | Review Seeker | Upsell Pitch (add after review ask) |
 | Customer had a negative rating but issue is now resolved | Negative Review Recovery | Review Seeker (only after trust is rebuilt, in a later follow-up) |
 | Migration issue where customer is also on a lower-tier license | WMGS Pitch | Upsell Pitch (mention upgrade if relevant) |
+| Previous issue may be resolved, need to check in and ensure ongoing success | CX Approach | Review Seeker (if confirmed working) or WMGS Pitch (if still stuck) |
+| Customer has sites activated/deactivated, need to re-engage | CX Approach | Upsell Pitch (if upgrade opportunity exists) |
 
 **Rules for combining:**
 1. Always lead with the primary skill's structure
@@ -105,7 +109,15 @@ Use this decision tree when the user doesn't specify which skill to use:
 5. **Is there a natural opportunity to recommend a product?**
    - Yes → **Upsell Pitch** (can be added as a section to any other skill's reply)
 
-6. **None of the above?**
+6. **Are you following up with a customer to check on their progress, ensure backups are working, or re-engage after silence?**
+   - Yes → **CX Approach**
+   - If they're now stuck/frustrated → Combine **CX Approach** + **Prevent Churn** or **WMGS Pitch**
+   - If everything is working → Combine **CX Approach** + **Review Seeker**
+
+7. **Need a quick prompt for a common scenario (follow-up, getting started, backup help)?**
+   - Yes → **Prompt Library** — search for a matching template and adapt
+
+8. **None of the above?**
    - Ask the user for clarification on the scenario
 
 ---
