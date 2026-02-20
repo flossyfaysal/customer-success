@@ -18,7 +18,7 @@ This file stores real customer cases and the replies crafted for them. Use these
 
 **Category:** Migration Follow-Up
 
-**Customer:** Stefan
+**Customer:** [Customer Name]
 
 **Situation:**
 - Customer purchased Duplicator for a migration
@@ -44,7 +44,7 @@ This file stores real customer cases and the replies crafted for them. Use these
 
 **Reply:**
 
-Hi Stefan,
+Hi [Customer Name],
 
 I'm following up on your migration — I want to make sure everything is on track for you.
 

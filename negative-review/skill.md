@@ -118,7 +118,7 @@ Use these naturally — never stack multiple in one message:
 ### Example 1 — Reference Output
 
 **Input:**
-- **Customer name**: Erin
+- **Customer name**: [Customer Name]
 - **Action taken**: Partial refund of $149 (renewal discount applied)
 - **Date**: Feb 12, 2026
 - **Payment method**: Credit card
@@ -126,7 +126,7 @@ Use these naturally — never stack multiple in one message:
 
 **Output:**
 
-> Hi Erin,
+> Hi [Customer Name],
 >
 > I noticed the negative rating you left on our last conversation, and I wanted to reach out personally to see if I can help turn things around. I genuinely want to make sure your experience with us is a positive one.
 >
@@ -153,7 +153,7 @@ Use these naturally — never stack multiple in one message:
 ### Example 2 — Alternate Style (More Exploratory)
 
 **Input:**
-- **Customer name**: Erin
+- **Customer name**: [Customer Name]
 - **Action taken**: Partial refund of $149 (renewal discount applied)
 - **Date**: Feb 12, 2026
 - **Payment method**: Credit card
@@ -161,7 +161,7 @@ Use these naturally — never stack multiple in one message:
 
 **Output:**
 
-> Hi Erin,
+> Hi [Customer Name],
 >
 > I hope you're doing well! I noticed you left a rating on our last conversation, and I wanted to personally follow up with you.
 >

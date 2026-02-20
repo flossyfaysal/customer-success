@@ -16,6 +16,9 @@ This is the root skill that manages all customer success sub-skills. Use this wh
 | **Upsell Pitch** | `upsell-pitch/` | Opportunity to recommend a relevant product (Duplicator Pro upgrade, WP Media Cleanup, Cloud Storage, WMGS, Elite Bundle) |
 | **Negative Review Recovery** | `negative-review/` | Customer left a negative rating on a resolved ticket — reach out to understand and rebuild trust |
 | **CX Approach** | `cx-approach/` | Proactive follow-up with a customer to check on their progress, ensure backups are working, offer hands-on help, and drive continuous success |
+| **Troubleshooter** | `troubleshooter/` | Customer reports a plugin issue, backup failure, crash, timeout, storage error, or other technical problem that needs diagnostic troubleshooting |
+| **Presale** | `presale/` | Potential customer asking feature questions, integration compatibility, pricing, or comparing before purchase — answer accurately, build confidence, cross-sell/upsell naturally |
+| **Renewal & Accounts** | `renewal/` | Customer asks about renewal pricing, license expiry, account management, license transfers, plan upgrades/downgrades, or lapsed license re-engagement — retain through value and smart exceptions |
 | **Prompt Library** | `prompt-library/` | Need a ready-to-use prompt for a specific scenario — search the library for proven templates and real case examples |
 
 ---
@@ -39,6 +42,17 @@ Some replies need elements from more than one skill. Common combinations:
 | Migration issue where customer is also on a lower-tier license | WMGS Pitch | Upsell Pitch (mention upgrade if relevant) |
 | Previous issue may be resolved, need to check in and ensure ongoing success | CX Approach | Review Seeker (if confirmed working) or WMGS Pitch (if still stuck) |
 | Customer has sites activated/deactivated, need to re-engage | CX Approach | Upsell Pitch (if upgrade opportunity exists) |
+| Presale question that transitions into a migration request | Presale | WMGS Pitch (full migration process) |
+| Presale question about cloud storage with cross-server needs | Presale | Upsell Pitch (Duplicator Cloud Storage) |
+| Presale from a Duplicator Lite user having issues | Presale | Troubleshooter (fix issue, then pitch Pro upgrade) |
+| Customer reports a plugin crash, backup failure, or technical error | Troubleshooter | WMGS Pitch (if issue is too complex for self-service) |
+| Troubleshooting a frustrated customer who's also threatening refund | Troubleshooter | Prevent Churn (lead with empathy, then diagnose) |
+| Troubleshooting resolved, customer is happy | Troubleshooter | Review Seeker (follow up and ask for review) |
+| Customer asks for renewal discount, polite and loyal | Renewal & Accounts | Review Seeker (ask for review after providing discount) |
+| Frustrated customer threatening to leave over renewal pricing | Renewal & Accounts | Prevent Churn (lead with empathy, then handle renewal) |
+| Customer renewing and wants to upgrade their plan | Renewal & Accounts | Upsell Pitch (highlight value of higher tier) |
+| Lapsed customer coming back who also needs migration help | Renewal & Accounts | WMGS Pitch (offer migration as part of re-engagement) |
+| Account management request from a customer near renewal | Renewal & Accounts | CX Approach (proactive check-in on usage) |
 
 **Rules for combining:**
 1. Always lead with the primary skill's structure
@@ -86,6 +100,8 @@ These are the canonical links used across skills. Always use these exact URLs:
 | WP Media Cleanup | https://wpmediacleanup.com/ |
 | Duplicator Cloud Storage | https://duplicator.com/cloud-storage/ |
 | Trustpilot Review Page | https://www.trustpilot.com/evaluate/duplicator.com |
+| Secure Credentials Sharing | https://secrets.supportally.com |
+| Credentials Sharing Guide | https://duplicator.com/knowledge-base/privately-sharing-credentials-with-support/ |
 
 ---
 
@@ -96,9 +112,10 @@ Use this decision tree when the user doesn't specify which skill to use:
 1. **Is the customer asking for a refund or threatening to leave?**
    - Yes → **Prevent Churn**
 
-2. **Is the customer reporting a restoration, migration, or backup failure?**
-   - Yes → **WMGS Pitch**
-   - If they're also angry/threatening refund → Combine **Prevent Churn** + **WMGS Pitch**
+2. **Is the customer reporting a technical issue, plugin crash, backup failure, timeout, or storage error that needs diagnosis?**
+   - Yes → **Troubleshooter**
+   - If the issue is specifically a restoration/migration failure → **WMGS Pitch** (or combine **Troubleshooter** + **WMGS Pitch**)
+   - If they're also angry/threatening refund → Combine **Prevent Churn** + **Troubleshooter**
 
 3. **Did the customer leave a positive rating on a resolved ticket?**
    - Yes → **Review Seeker**
@@ -117,7 +134,18 @@ Use this decision tree when the user doesn't specify which skill to use:
 7. **Need a quick prompt for a common scenario (follow-up, getting started, backup help)?**
    - Yes → **Prompt Library** — search for a matching template and adapt
 
-8. **None of the above?**
+8. **Is the customer asking about renewal pricing, license expiry, account management, or returning after a lapsed license?**
+   - Yes → **Renewal & Accounts**
+   - If they're also threatening to leave → Combine **Renewal & Accounts** + **Prevent Churn**
+   - If they want to upgrade/downgrade during renewal → Combine **Renewal & Accounts** + **Upsell Pitch**
+   - If the license has lapsed and they need migration help → Combine **Renewal & Accounts** + **WMGS Pitch**
+
+9. **Is the person a potential customer asking about features, pricing, compatibility, or comparing before purchasing?**
+   - Yes → **Presale**
+   - If they're also asking about migration → Combine **Presale** + **WMGS Pitch**
+   - If they mention a large or complex site → Combine **Presale** + **Upsell Pitch** (Cloud Storage, WP Media Cleanup)
+
+10. **None of the above?**
    - Ask the user for clarification on the scenario
 
 ---

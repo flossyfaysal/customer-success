@@ -88,6 +88,38 @@ Use this when the customer manages a large number of sites. Reframe the pitch ar
 ### 5. Elite Bundle (Duplicator Pro + WP Media Cleanup)
 Combine the Duplicator Pro license upgrade pitch with WP Media Cleanup as a bundled offer. Emphasize the combined value — robust backups plus a leaner, faster WordPress media library.
 
+**Key selling point:** WP Media Cleanup is included **FREE** with the Elite bundle — customers don't need to purchase it separately. This makes the Elite bundle the best value for anyone who wants both robust backups and a leaner media library.
+
+**Base template (Elite bundle value pitch):**
+> I also wanted to mention that our Elite plan includes our brand new plugin, **WP Media Cleanup**, completely free as part of the bundle. It's specifically designed to clean up unnecessary files from your website — unused image sizes, orphaned media, and other bloat — which directly reduces your backup sizes and speeds up the entire backup process.
+>
+> So with the Elite bundle, you get the full power of Duplicator Pro **plus** a cleaner, faster WordPress site out of the box. It's a great combination if you want the most complete solution.
+
+### 6. Plan Upgrade — Basic to Plus/Pro
+**Key selling points:**
+- Basic plan allows only **1 remote storage integration** (e.g., only OneDrive OR Google Drive, not both)
+- Plus plan and above allow **unlimited remote storage integrations** — connect as many cloud destinations as needed
+- Plus and Pro plans include more features, more site licenses, and greater flexibility
+- Pro and Elite plans include **multisite support** for WordPress multisite networks
+
+**When to use:** Customer is on or considering the Basic plan, and their use case suggests they'd benefit from multiple storage destinations, multisite support, or additional features.
+
+**Base template (Basic → Plus/Pro upgrade):**
+> I noticed you're looking at the Basic plan, and while it's a solid starting point, I'd recommend considering the **Plus** or **Pro** plan based on what you've described.
+>
+> One important difference: the Basic plan allows only **1 remote storage integration**, so you'd need to choose between OneDrive, Google Drive, Dropbox, etc. With the **Plus plan and above**, you get **unlimited remote storage integrations**, so you can back up to multiple cloud destinations simultaneously for extra redundancy.
+>
+> If you're also working with WordPress multisite, the **Pro** plan would be the way to go — multisite support is available on our Pro and Elite plans.
+
+**Variation template (presale context — customer asking about Basic):**
+> While the Basic plan covers the essentials, based on your requirements I'd suggest looking at our **Plus** or **Pro** plan for a more complete experience. Here's why:
+>
+> - **Basic plan:** Limited to 1 remote storage integration (you'd have to pick just one cloud destination)
+> - **Plus plan and above:** Unlimited remote storage integrations — back up to OneDrive, Google Drive, and more simultaneously
+> - **Pro/Elite plans:** Full multisite support for WordPress multisite networks
+>
+> The upgrade gives you significantly more flexibility and peace of mind. You can compare all plans here: [Duplicator Pricing](https://duplicator.com/pricing/)
+
 ## Rules for Generating the Upsell Pitch
 
 1. **Read the customer context carefully.** Identify the customer's pain point, what they were asking about, and what product they currently use.

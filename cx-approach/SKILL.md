@@ -355,7 +355,7 @@ Study these real cases to understand the approach patterns. When generating repl
 
 ### Case 1: Graceful Closure — New Baby + Refund + Review Ask
 
-**Context:** Customer (Eve) had a website issue, was using ProPhoto for redesign, requested a refund. She also just had her sixth baby.
+**Context:** Customer had a website issue, was using ProPhoto for redesign, requested a refund. They also just had their sixth baby.
 
 **What made this reply exceptional:**
 - Led with a heartfelt, specific congratulation ("sixth baby" — not generic "congrats")
@@ -369,7 +369,7 @@ Study these real cases to understand the approach patterns. When generating repl
 **Reply:**
 
 ```
-Hi Eve,
+Hi [Customer Name],
 
 First and foremost, a huge congratulations on the birth of your sixth baby! That is such wonderful news. I can only imagine how hectic life is for you right now, and the last thing you need is extra stress from a website.
 
@@ -394,7 +394,7 @@ Best regards,
 
 ### Case 2: Purchased but Never Activated — AJAX Block Unresolved + Proactive Backup Offer
 
-**Context:** Customer (Setiausaha) had an AJAX block issue preventing backup creation. Was sent troubleshooting steps and a secure credentials link to allow direct investigation. Customer went silent — no feedback on the AJAX fix. Meanwhile, the license was purchased but never activated on any site.
+**Context:** Customer had an AJAX block issue preventing backup creation. Was sent troubleshooting steps and a secure credentials link to allow direct investigation. Customer went silent — no feedback on the AJAX fix. Meanwhile, the license was purchased but never activated on any site.
 
 **What made this pattern distinct:**
 - Combined two observations (unresolved issue + unactivated license) into one natural, caring message
@@ -407,7 +407,7 @@ Best regards,
 **Reply:**
 
 ```
-Hi Setiausaha,
+Hi [Customer Name],
 
 I hope you're doing well! I'm just checking in to follow up on a couple of things.
 
@@ -625,7 +625,7 @@ When crafting your CX Approach reply, check:
 
 **Version 1.2** - Added Purchased but Never Activated + Proactive Backup Offer pattern
 - New Scenario 9: Purchased but Never Activated + Unresolved Issue + Proactive "Let Us Do It For You" Offer
-- Real Case 2: Setiausaha — AJAX block unresolved, license purchased but never activated, proactive backup offer
+- Real Case 2: AJAX block unresolved, license purchased but never activated, proactive backup offer
 - New phrase banks: Purchased but Not Activated, Proactive "Do It For You", No-Feedback Acknowledgment
 - New activation status pattern: "Purchased but never activated" (distinct from general "never activated")
 - Updated combining table with purchased-not-activated combos
@@ -635,7 +635,7 @@ When crafting your CX Approach reply, check:
 **Version 1.1** - Added Graceful Closure + Personal Celebration patterns
 - New Scenario 7: Graceful Closure with Personal Celebration (refund + life event + review ask + open door)
 - New Scenario 8: Celebratory Close for resolved issues
-- Real Case 1: Eve — new baby, refund, ProPhoto transition (proven reply with pattern analysis)
+- Real Case 1: New baby, refund, ProPhoto transition (proven reply with pattern analysis)
 - New phrase banks: Personal Life Celebration, Graceful Closure, Review Ask During Closure
 - Updated core principles: "Be a Real Human" and "Graceful Exits Build Loyalty"
 - Updated combining table with closure and celebration combos

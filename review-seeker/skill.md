@@ -37,11 +37,11 @@ Study all entries below before generating. Match the voice, warmth, and personal
 
 ### Entry 1
 
-**Input:** Douglas — "Great and fast work..." — License activation issue resolved — EDD: 2016-07-14 (nearly 10 years) — Has previous tickets, never asked for review
+**Input:** Customer — "Great and fast work..." — License activation issue resolved — EDD: 2016-07-14 (nearly 10 years) — Has previous tickets, never asked for review
 
 **Output:**
 
-> Hi Douglas,
+> Hi [Customer Name],
 >
 > Thanks so much for the kind words — "great and fast work" really made my day! I'm glad we got that activation sorted out smoothly for you.
 >
@@ -83,11 +83,11 @@ Study all entries below before generating. Match the voice, warmth, and personal
 
 ### Entry 3
 
-**Input:** Erin — "I was satisfied with the resolution" — Follow-up to negative review recovery — Erin clarified the negative rating wasn't from her, refund pending (bank holiday delay), warm and appreciative tone
+**Input:** Customer — "I was satisfied with the resolution" — Follow-up to negative review recovery — Customer clarified the negative rating wasn't from them, refund pending (bank holiday delay), warm and appreciative tone
 
 **Output:**
 
-> Hi Erin,
+> Hi [Customer Name],
 >
 > That's really great to hear — I'm glad the resolution worked out and that everything's on track. And no worries about the refund timing, bank holidays always slow things down a bit. It should show up shortly.
 >
