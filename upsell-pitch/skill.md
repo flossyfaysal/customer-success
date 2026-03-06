@@ -10,6 +10,27 @@ The user will provide:
 
 Using these two inputs, generate a natural, personalized upsell pitch that ties directly into the customer's situation. The pitch should feel like a helpful recommendation, not a hard sell.
 
+## Duplicator Pro Pricing Reference
+
+Use this table to pitch the right plan based on the customer's situation. Never mention a feature a plan doesn't include.
+
+| Plan | Normal Price | First Purchase | Sites | Hourly Backups | Staging Sites | Multisite | WP Media Cleanup | Activity Log |
+|---|---|---|---|---|---|---|---|---|
+| Basic | $99/yr | $69.30/yr | 2 | No | No | No | No | No |
+| Plus | $199/yr | $99.50/yr | 5 | Yes | No | No | No | No |
+| Pro | $399/yr | $199.50/yr | 20 | Yes | Yes | Yes | Included free | No |
+| Elite | $599/yr | $299.50/yr | 100 | Yes | Yes | Yes | Included free | Included free |
+
+All plans include: unlimited backups and migrations, daily scheduled backups, 1-click restore points, archive encryption, unlimited cloud storage destinations (Google Drive, Dropbox, OneDrive, Amazon S3, FTP/SFTP, S3-compatible).
+
+### When to recommend each upgrade
+
+- **Basic to Plus** - Customer needs hourly backups (Basic only supports daily schedules), or needs more than 2 site licenses
+- **Plus to Pro** - Customer needs staging sites, multisite network support, or is approaching their 5-site limit. WP Media Cleanup is also included free.
+- **Pro to Elite** - Customer manages 20+ sites, or would benefit from Activity Log (agencies, teams with multiple users, compliance requirements). WP Media Cleanup and Activity Log both included free.
+
+---
+
 ## Products Available for Upsell
 
 ### 1. Duplicator Pro License Upgrade
@@ -58,8 +79,8 @@ Use this when the customer manages a large number of sites. Reframe the pitch ar
 - Built natively for the plugin — no third-party APIs to manage or re-authorize.
 - Eliminates authentication "hiccups" or expiring tokens common with Google Drive, Dropbox, etc.
 - "Set it and forget it" reliable backup destination.
-- Tiers: Pro Tier (100GB), Scale Tier (150GB).
-- Link: [Duplicator Cloud Storage](https://duplicator.com/cloud-storage/)
+- Tiers: Starter (2GB), Basic (10GB), Plus (25GB), Business (50GB), Pro Tier (100GB), Scale Tier (150GB)
+- Link: [Duplicator Cloud Storage](https://duplicator.com/knowledge-base/getting-duplicator-cloud-storage/)
 
 **Base template:**
 > Since third-party storage (like Google Drive or Dropbox) can sometimes have authentication "hiccups" or expiring tokens, you might want to consider adding Duplicator Cloud as a primary or secondary destination.
@@ -85,40 +106,59 @@ Use this when the customer manages a large number of sites. Reframe the pitch ar
 >
 > The service starts at $149 for small to medium sites. Would you like me to set up an assessment for this? More details: [Migration Services](https://duplicator.com/migration-services/)
 
-### 5. Elite Bundle (Duplicator Pro + WP Media Cleanup)
-Combine the Duplicator Pro license upgrade pitch with WP Media Cleanup as a bundled offer. Emphasize the combined value — robust backups plus a leaner, faster WordPress media library.
+### 5. Elite Bundle (Duplicator Pro + WP Media Cleanup + Activity Log)
+Combine the Duplicator Pro license upgrade pitch with WP Media Cleanup and Activity Log as a bundled offer. Emphasize the combined value — robust backups, a leaner media library, and full visibility into site activity.
 
-**Key selling point:** WP Media Cleanup is included **FREE** with the Elite bundle — customers don't need to purchase it separately. This makes the Elite bundle the best value for anyone who wants both robust backups and a leaner media library.
+**Key selling points:**
+- WP Media Cleanup is included **FREE** with the Elite bundle — removes unused image sizes, orphaned media, and bloat to shrink backup sizes and speed up migrations.
+- Activity Log is included **FREE** with the Elite bundle — tracks every change, login, and update across the site with a detailed audit trail. Useful for security monitoring, team accountability, and compliance.
+
+**Activity Log key features (reference when relevant to the customer's context):**
+- Monitors user logins, logouts, failed attempts, and role changes
+- Logs all content edits, plugin/theme installs, activations, and updates
+- Tracks changes to critical WordPress settings (site URL, admin email, permalinks)
+- Powerful search, filtering, and export for audits or compliance
+- Lightweight - no noticeable impact on site speed
+- Link: [Activity Log](https://duplicator.com/activity-log/)
 
 **Base template (Elite bundle value pitch):**
-> I also wanted to mention that our Elite plan includes our brand new plugin, **WP Media Cleanup**, completely free as part of the bundle. It's specifically designed to clean up unnecessary files from your website — unused image sizes, orphaned media, and other bloat — which directly reduces your backup sizes and speeds up the entire backup process.
+> I also wanted to mention that our Elite plan includes two brand new plugins completely free as part of the bundle: **WP Media Cleanup** and **Activity Log**.
 >
-> So with the Elite bundle, you get the full power of Duplicator Pro **plus** a cleaner, faster WordPress site out of the box. It's a great combination if you want the most complete solution.
+> WP Media Cleanup removes unused image sizes, orphaned media, and other bloat from your site - which directly reduces your backup sizes and speeds up the entire backup process with Duplicator.
+>
+> Activity Log gives you a complete audit trail of everything happening on your site - logins, content changes, plugin updates, settings modifications - so you always know who did what and when. It's a great tool for security monitoring and keeping tabs on your team.
+>
+> So with the Elite bundle, you get the full power of Duplicator Pro plus a cleaner, faster WordPress site and full visibility into your site activity - all out of the box. It's the most complete solution we offer.
 
-### 6. Plan Upgrade — Basic to Plus/Pro
+### 6. Plan Upgrade — Basic to Plus/Pro/Elite
 **Key selling points:**
-- Basic plan allows only **1 remote storage integration** (e.g., only OneDrive OR Google Drive, not both)
-- Plus plan and above allow **unlimited remote storage integrations** — connect as many cloud destinations as needed
-- Plus and Pro plans include more features, more site licenses, and greater flexibility
-- Pro and Elite plans include **multisite support** for WordPress multisite networks
+- Basic supports daily scheduled backups only — Plus and above unlock hourly backup schedules
+- Basic covers up to 2 sites — Plus covers 5, Pro covers 20, Elite covers 100
+- Pro and Elite include staging sites, multisite network support, and WP Media Cleanup free
+- Elite includes Activity Log free — ideal for agencies and teams managing multiple users
 
-**When to use:** Customer is on or considering the Basic plan, and their use case suggests they'd benefit from multiple storage destinations, multisite support, or additional features.
+**When to use:** Customer's current plan doesn't cover their needs — too few site licenses, no hourly backups, no staging, no multisite, or they'd benefit from the bundled plugins.
 
-**Base template (Basic → Plus/Pro upgrade):**
-> I noticed you're looking at the Basic plan, and while it's a solid starting point, I'd recommend considering the **Plus** or **Pro** plan based on what you've described.
+**Base template (Basic to Plus upgrade):**
+> I noticed you're on the Basic plan, and based on what you've described, the **Plus plan** might be a better fit.
 >
-> One important difference: the Basic plan allows only **1 remote storage integration**, so you'd need to choose between OneDrive, Google Drive, Dropbox, etc. With the **Plus plan and above**, you get **unlimited remote storage integrations**, so you can back up to multiple cloud destinations simultaneously for extra redundancy.
+> The main difference: Basic only supports daily backup schedules, while Plus unlocks hourly backups - so your data is protected much more frequently. Plus also covers up to 5 sites instead of 2, which gives you room to grow.
 >
-> If you're also working with WordPress multisite, the **Pro** plan would be the way to go — multisite support is available on our Pro and Elite plans.
+> You can compare all plans here: [Duplicator Pricing](https://duplicator.com/pricing/)
 
-**Variation template (presale context — customer asking about Basic):**
-> While the Basic plan covers the essentials, based on your requirements I'd suggest looking at our **Plus** or **Pro** plan for a more complete experience. Here's why:
+**Base template (Plus to Pro upgrade):**
+> Based on what you've described, the **Pro plan** would serve you better than Plus.
 >
-> - **Basic plan:** Limited to 1 remote storage integration (you'd have to pick just one cloud destination)
-> - **Plus plan and above:** Unlimited remote storage integrations — back up to OneDrive, Google Drive, and more simultaneously
-> - **Pro/Elite plans:** Full multisite support for WordPress multisite networks
+> Pro adds staging site support, full multisite network support, and WP Media Cleanup is included free - which removes unused image bloat and directly reduces your backup sizes. It also covers up to 20 sites, so you have plenty of room to scale.
 >
-> The upgrade gives you significantly more flexibility and peace of mind. You can compare all plans here: [Duplicator Pricing](https://duplicator.com/pricing/)
+> You can compare all plans here: [Duplicator Pricing](https://duplicator.com/pricing/)
+
+**Base template (Pro to Elite upgrade):**
+> Since you're managing a growing number of sites, it might be worth looking at the **Elite plan**.
+>
+> Elite covers up to 100 sites and includes two plugins completely free - WP Media Cleanup and Activity Log. Activity Log gives you a complete audit trail of everything happening across your sites: logins, content changes, plugin updates, settings modifications. It's especially useful for agencies and teams where multiple people have access.
+>
+> You can compare all plans here: [Duplicator Pricing](https://duplicator.com/pricing/)
 
 ## Rules for Generating the Upsell Pitch
 
@@ -129,5 +169,8 @@ Combine the Duplicator Pro license upgrade pitch with WP Media Cleanup as a bund
 5. **Keep it concise.** The upsell section should be a short addition to a support reply, not a wall of text.
 6. **Always include the relevant product link.**
 7. **Use the customer's first name** if available from the conversation.
-8. **If the product is Elite Bundle**, weave both Duplicator Pro upgrade and WP Media Cleanup benefits together naturally.
+8. **If the product is Elite Bundle**, weave Duplicator Pro upgrade, WP Media Cleanup, and Activity Log benefits together naturally. Emphasize whichever plugins are most relevant to the customer's situation (e.g. Activity Log for teams/agencies, WP Media Cleanup for sites with large media libraries).
 9. **Never fabricate details** about the customer's situation. Only reference what's clearly present in the provided context.
+
+
+Don't use ` and — in the pitch. Use regular quotation marks and dashes for a more natural tone.
