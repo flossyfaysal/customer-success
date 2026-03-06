@@ -392,6 +392,80 @@ Best regards,
 
 ---
 
+### Case 3: Anniversary Outreach — 5-Year Milestone + Website Praise + License Migration Nudge + Cloud Storage Upsell + Review Ask
+
+**Context:** Agent proactively reached out to a 5+ year customer (Zenon) who had recently purchased a new Duplicator Pro Basic license but had not migrated it to his sites. His previous license was still active on chelseatoday.org and testchelsea.nerdherders.com. Agent scanned the customer's website to pull personalized praise.
+
+**What made this reply exceptional:**
+- Opened with a warm, specific anniversary acknowledgment ("over 5 years")
+- Included genuinely personalized website praise pulled from scanning chelseatoday.org — referenced the local news/community focus by name
+- Called out the unused new license with a helpful nudge (shift the key) rather than framing it as a mistake
+- Cloud storage upsell was woven in naturally as a security upgrade, not a sales pitch
+- Trustpilot ask was anchored to tenure ("veterans like you") which makes it feel earned, not transactional
+- Closed with an open offer to help with the license migration specifically
+
+**Pattern tags:** `anniversary-milestone` `website-scan-praise` `license-migration-nudge` `cloud-storage-upsell` `review-ask` `proactive-account-review`
+
+**Reply:**
+
+```
+Hi Zenon,
+
+I hope you're having a fantastic week!
+
+I was just looking through our records, and I wanted to personally congratulate you on being with us for over 5 years! Your long-term loyalty is truly appreciated, and we are honored to have been your choice for site management for over half a decade.
+
+I took a moment to look at your sites and noticed some great work. Your community focus at chelseatoday.org is wonderful to see, as local news and community hubs play such a vital role in keeping people connected. It's a project you should be very proud of!
+
+While reviewing your account, I noticed that you recently purchased a new Duplicator Pro Basic license, but it hasn't been activated on any sites yet. Your previous license is still linked to `chelseatoday.org` and `testchelsea.nerdherders.com`. To ensure you get the full benefits and latest updates of your new plan, I highly encourage you to shift your license key to the new Basic one you purchased.
+
+I also wanted to make sure your backups are as secure as possible. Are you currently using a remote storage location? If you're looking for the most reliable "vault" for your data, I'd love to share our native Duplicator Cloud Storage: https://duplicator.com/pricing/#cloud-storage. It's built to work perfectly with your license, providing a seamless and secure off-site backup solution.
+
+Since you've been a part of the Duplicator family for over 5 years, would you be willing to share a brief review of your experience on Trustpilot? Feedback from veterans like you helps us immensely: https://www.trustpilot.com/evaluate/duplicator.com
+
+Your success is our success, and we wish you continued prosperity with all your future projects. If you need any help shifting that license key or setting up your backups, please just let me know!
+
+Best regards,
+```
+
+---
+
+### Case 4: Anniversary Outreach — 9-Year Milestone + 100-Site Power User + Trustpilot Review Ask
+
+**Context:** Agent noticed a customer (Scott) approaching a 10-year milestone while managing nearly 100 sites on a Business license. Proactive outreach was sent to celebrate the anniversary, check in on the experience, and request a Trustpilot review.
+
+**What made this reply exceptional:**
+- Opened with a genuine pause — "I had to stop and reach out" — which makes the outreach feel personal, not automated
+- Specifically called out the 100-site count and Business license to show the agent actually reviewed the account
+- "Your success is truly our success" frames the relationship as a partnership
+- Offered multiple concrete help scenarios (migration, backup routines, new features) to lower the barrier to reply
+- Trustpilot ask positioned as "the highest compliment we can receive" from a power user — not a generic request
+- Future-forward close ("next 10 years") reinforces long-term loyalty
+
+**Pattern tags:** `anniversary-milestone` `power-user-recognition` `review-ask` `proactive-account-review` `milestone-triggered-outreach`
+
+**Reply:**
+
+```
+Hi Scott,
+
+I was just looking through our records and I had to stop and reach out. I realized that you have been with us for nearly 10 years!
+
+I want to personally congratulate you on this 9-year anniversary with Duplicator. It is truly impressive to see that you are currently managing almost 100 sites with your Business license. Knowing that our tool plays a part in the maintenance and safety of such a large-scale operation is something that makes us incredibly proud.
+
+Your success is truly our success. We know that managing 100 sites requires a high level of trust in your tools, and we are honored that you've chosen us as your partner for a full decade.
+
+I'm reaching out today just to ensure that everything is running perfectly on your end. Whether you need assistance with a complex migration, have questions about optimizing your backup routines, or simply want to learn more about our latest features, please just let me know. I am here to help you in any way I can.
+
+Since you have such a wealth of experience with Duplicator over the last 10 years, would you be willing to share a brief review of your journey with us on Trustpilot? Feedback from long-term power users like yourself is the highest compliment we can receive: https://www.trustpilot.com/evaluate/duplicator.com
+
+Thank you for a decade of loyalty. We wish you all the very best for the next 10 years of growth and success!
+
+Best regards,
+```
+
+---
+
 ### Case 2: Purchased but Never Activated — AJAX Block Unresolved + Proactive Backup Offer
 
 **Context:** Customer had an AJAX block issue preventing backup creation. Was sent troubleshooting steps and a secure credentials link to allow direct investigation. Customer went silent — no feedback on the AJAX fix. Meanwhile, the license was purchased but never activated on any site.
