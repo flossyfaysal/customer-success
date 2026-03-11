@@ -177,3 +177,7 @@ Goal: Lead with empathy, take the frustration seriously, reference the specific 
 - **Don't sound like a bot** - avoid corporate phrases like "We have received your feedback"
 - **Don't ignore specifics** - a generic reply to a detailed review is worse than no reply
 - **Don't promote Duplicator Pro or any paid product** - forum replies are not a sales channel
+
+
+**Notes:**
+Don't use the ` or — (em dash) characters in the reply. Keep it simple with hyphens and standard punctuation.

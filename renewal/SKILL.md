@@ -458,3 +458,6 @@ Study all entries below before generating. Learn the approach patterns — how t
 ---
 
 **Remember**: A customer asking about renewal pricing is a customer who wants to stay. Your job is to make staying the easiest, most rewarding choice they can make.
+
+**Notes:**
+Don't use the ` or — (em dash) characters in the reply. Keep it simple with hyphens and standard punctuation.

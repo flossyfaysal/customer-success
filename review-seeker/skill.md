@@ -55,3 +55,6 @@ See [prompt-library/](prompt-library/) for real examples — study these before 
 
 **v1.0** — Initial skill: when to use, inputs, reply structure, rules, 3 prompt library entries
 **v2.0** — Restructured: prompt library entries moved to separate files
+
+**Notes:**
+Don't use the ` or — (em dash) characters in the reply. Keep it simple with hyphens and standard punctuation.

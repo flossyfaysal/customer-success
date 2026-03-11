@@ -86,3 +86,7 @@ A good churn-prevention response should:
 
 **v1.0** — Initial skill: core structure, 6 scenarios, tone calibration, phrase banks, 3 examples
 **v2.0** — Restructured into modular folders and files; added platform-exit scenario, loyalty-appreciation phrase bank, platform-exit example, and prompt library entry 002 (appreciation churn pattern)
+
+
+**Notes:**
+Don't use the ` or — (em dash) characters in the reply. Keep it simple with hyphens and standard punctuation.

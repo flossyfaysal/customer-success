@@ -722,3 +722,7 @@ When crafting your CX Approach reply, check:
 - Phrase banks for re-engagement, help offers, and continuous success messaging
 - Tone calibration for first, second, and final follow-ups
 - Combining guide for multi-skill scenarios
+
+
+**Notes:**
+Don't use the ` or — (em dash) characters in the reply. Keep it simple with hyphens and standard punctuation.

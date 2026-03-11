@@ -640,3 +640,7 @@ When crafting your presale reply, check:
 - Added cross-sell decision tree branch for Basic plan customers (branch 6)
 - Updated Honesty Guide with remote storage integration limit
 - Added WP Media Cleanup free with Elite bundle as a cross-sell lever
+
+
+**Notes:**
+Don't use the ` or — (em dash) characters in the reply. Keep it simple with hyphens and standard punctuation.

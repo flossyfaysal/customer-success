@@ -92,7 +92,44 @@ Use this when the customer manages a large number of sites. Reframe the pitch ar
 >
 > You can find the full details and pricing here: [Duplicator Cloud Storage](https://duplicator.com/cloud-storage/)
 
-### 4. White Glove Migration Service (WGMS)
+### 4. One-Click Staging Sites
+**Requires:** Duplicator Pro 4.5.25 or newer, active Pro or Elite license (not available on Basic or Plus), single-site WordPress installation only.
+
+**Key selling points:**
+- Create a fully isolated copy of the live site directly from any backup, right inside WordPress - no manual file transfers or separate server setup needed.
+- Staging site is ready at a subfolder URL (e.g. yoursite.com/staging/) in minutes.
+- Safety features are applied automatically: emails are blocked, search engine indexing is disabled, the admin bar shows a "Staging Site" indicator, and database tables use isolated prefixes so the staging environment never bleeds into production.
+- When done testing, delete the staging site just as easily.
+- Link: [Creating a One-Click Staging Site](https://duplicator.com/knowledge-base/creating-one-click-staging-site/)
+
+**Limitations to be aware of:**
+- Multisite networks are not supported - single-site installations only.
+- Staging site deletion is permanent and cannot be undone.
+- Requires sufficient disk space for a full site copy.
+
+**How to create a staging site (for reference when explaining the process):**
+1. Go to Duplicator Pro > Staging in the WordPress admin
+2. Click Create Staging Site
+3. Review the subfolder path and database table prefix shown
+4. Click Create and wait for the process to complete
+5. Access the staging site at yoursite.com/staging/ using production credentials
+
+**When to pitch staging:**
+- Customer is nervous about testing updates or changes on a live site
+- Customer mentions breaking their site after an update
+- Customer asks about safe testing environments
+- Customer is on Basic or Plus and wants staging - use as a reason to upgrade to Pro or Elite
+
+**Base template:**
+> One feature that might be useful for you is one-click staging. With Duplicator Pro 4.5.25 and a Pro or Elite license, you can create a fully isolated copy of your live site from any backup, right inside WordPress - no separate hosting or manual file transfers needed.
+>
+> The staging site runs at a subfolder on your domain (like yoursite.com/staging/) and comes pre-configured with email blocking, search engine indexing disabled, and an isolated database - so nothing you do there can affect your live site.
+>
+> When you're done testing, you can delete it just as easily. More details here: [One-Click Staging](https://duplicator.com/knowledge-base/creating-one-click-staging-site/)
+
+---
+
+### 5. White Glove Migration Service (WGMS)
 **Key selling points:**
 - Duplicator's team handles the entire migration process — production to staging and back.
 - Includes all configuration adjustments and final testing.
@@ -173,4 +210,5 @@ Combine the Duplicator Pro license upgrade pitch with WP Media Cleanup and Activ
 9. **Never fabricate details** about the customer's situation. Only reference what's clearly present in the provided context.
 
 
-Don't use ` and — in the pitch. Use regular quotation marks and dashes for a more natural tone.
+**Notes:**
+Don't use the ` or — (em dash) characters in the reply. Keep it simple with hyphens and standard punctuation.

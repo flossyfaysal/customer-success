@@ -34,3 +34,7 @@ negative-review/
 
 **v1.0** — Initial skill: response pattern, tone rules, phrase bank, 2 example styles
 **v2.0** — Restructured into modular folders and files
+
+
+**Notes:**
+Don't use the ` or — (em dash) characters in the reply. Keep it simple with hyphens and standard punctuation.

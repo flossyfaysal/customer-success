@@ -285,3 +285,7 @@ Study all entries below before generating. Match the voice, warmth, and personal
 > Once I have access, I will perform the audit and send over your custom quote and migration plan immediately!
 >
 > Best regards,
+
+
+**Notes:**
+Don't use the ` or — (em dash) characters in the reply. Keep it simple with hyphens and standard punctuation.
