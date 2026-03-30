@@ -236,6 +236,10 @@ Use these accurate feature descriptions when answering presale questions:
 ### Multisite Support
 - Available on **Pro and Elite** plans only
 - Supports backing up and migrating entire multisite networks or individual subsites
+- **License activation on Multisite:** Activating Duplicator Pro at the network level counts as **1 site activation**, regardless of how many sub-sites exist on the network
+  - A network with 110 sub-sites = 1 activation
+  - Standalone independent sites (e.g., siteA.com and siteB.com not on a shared network) each count as a separate activation
+- The Elite plan (100 activations) is more than sufficient for a single multisite network of any size
 
 ### Duplicator Cloud Storage (Native)
 - Built natively for the plugin — no third-party APIs to manage
@@ -446,6 +450,68 @@ Study all entries below before generating. Match the voice, accuracy, and cross-
 
 ---
 
+### Entry 4 — Scenario D+C: Multisite Network License Limit Question (Competitor Switch, Elite Upsell)
+
+**Input:** Customer — Managing a WordPress Multisite Network (110 sub-sites, growing) — Switching from NS Cloner Pro (broken plugin crashing network) — Asking specifically: Does the Elite plan's 100-site limit count root URLs (like domain.com) or sub-sites (like location.domain.com)? — Presale, no existing Duplicator purchase
+
+**Approach used:**
+1. **Answer the license question directly and immediately** — the customer's specific concern is whether 110 sub-sites blocks them from Elite. Kill that anxiety in the first two sentences.
+2. **Explain the network-level activation rule clearly** — one network = one activation, regardless of sub-site count. Use a concrete example with their numbers to make it undeniable.
+3. **Build confidence in Elite as the right choice** — not because of the site limit (they only need 1), but because of the full bundle value: Duplicator Pro + WP Media Cleanup + Activity Log, all supporting multisite.
+4. **Acknowledge their pain point** — they're coming from a broken plugin. Show that Duplicator Pro is stable and trusted, without badmouthing NS Cloner Pro.
+5. **Mention migration services naturally** — if they want professional help getting set up on a 110-site network, WMGS is the right offer.
+6. **Keep it simple** — no walls of text. This customer is technical (manages a multisite network), but they just need a clear, confident answer and a reason to buy today.
+
+**Why this approach works:**
+- The license question is the primary blocker — answer it first and completely
+- Concrete numbers ("your 110 sub-sites count as exactly 1") remove all ambiguity
+- The Elite bundle value (WP Media Cleanup + Activity Log) is genuinely relevant for a network this size — not forced
+- Mentioning WMGS respects that managing 110 sites is complex and they may want help
+- Simple, direct reply matches the technical, no-nonsense tone of a network admin
+
+**Output:**
+
+> Hi [Customer Name],
+>
+> Great news — the 100-site limit on the Elite plan will not be an issue for your setup at all.
+>
+> **Does the 100-site limit apply to root URLs or sub-sites?**
+>
+> For WordPress Multisite networks, Duplicator Pro is activated at the **network level** — which counts as just **1 site activation**, regardless of how many sub-sites exist on the network. Your entire 110-sub-site network, plus any future sub-sites you add, will only use **1 of the 100 available activations** on the Elite plan.
+>
+> To put it simply: if all your sites are on a single multisite network, you are well within the Elite plan limits. Independent standalone sites (e.g., two separate domains with no network relationship) would each count as a separate activation — but that doesn't apply to your setup.
+>
+> **Why Elite is the right fit for you:**
+>
+> The Elite plan is our most complete bundle, and it's designed exactly for setups like yours:
+>
+> - **Duplicator Pro** — backup, migrate, and clone your multisite network or individual sub-sites
+> - **WP Media Cleanup** — removes unused image sizes and orphaned media across your network, which directly reduces your backup sizes as you scale to more sub-sites
+> - **Activity Log** — tracks 60+ event types across your entire network (user actions, plugin changes, logins, settings) with filtering, export, and email alerts. Useful when managing a growing multi-location setup
+>
+> All three plugins are fully compatible with WordPress Multisite.
+>
+> **Need help with the initial migration?**
+>
+> If you'd like a hands-off setup for a network this size, our expert team offers a paid migration service. They handle everything from moving the existing structure to verifying each sub-site. You can learn more here: https://duplicator.com/migration-services/
+>
+> Let me know if you have any other questions — happy to help you get started!
+>
+> Best regards,
+
+**What made this reply effective:**
+- Opened with the direct answer to their specific concern — no preamble
+- Used their actual numbers (110 sub-sites, 1 activation, 100 available) to make the answer concrete and irrefutable
+- Explained the standalone vs. network distinction without overcomplicating it
+- Elite bundle framed as "designed for setups like yours" — relevant, not generic
+- WP Media Cleanup and Activity Log described with use cases specific to a growing multisite — felt like genuine recommendations
+- WMGS mentioned naturally as a practical option for a complex setup, not as a hard sell
+- Clean, professional close without being pushy
+
+**Pattern tags:** `multisite` `license-limit` `network-activation` `elite-upsell` `competitor-switch` `ns-cloner` `elite-bundle` `activity-log` `wp-media-cleanup` `wmgs-migration` `direct-answer`
+
+---
+
 ## Plan Recommendation Strategy
 
 When a customer is considering the Basic plan, evaluate whether to recommend Plus or Pro instead:
@@ -464,6 +530,12 @@ When a customer is considering the Basic plan, evaluate whether to recommend Plu
 - Customer has media-heavy sites that would benefit from WP Media Cleanup (free with Elite)
 - Customer needs multisite support + media optimization
 - Customer wants the most complete, all-in-one solution
+- Customer would benefit from site activity auditing (Activity Log plugin included free with Elite)
+
+### Elite Bundle Includes (free with Elite license)
+- **Duplicator Pro** — backup, migration, cloning
+- **WP Media Cleanup** — remove unused image sizes and orphaned media, reducing backup sizes
+- **Activity Log** — tracks 60+ event types across the site (user actions, plugin changes, settings, logins) with filtering, export, and email notifications
 
 ### How to Frame It
 - Always answer their questions about Basic honestly first — confirm what Basic CAN do
@@ -630,6 +702,13 @@ When crafting your presale reply, check:
 - Entry 2: Cloud storage pricing & plan details follow-up (proven reply)
 - Expanded Duplicator Cloud Storage feature reference with all 6 tiers, pricing, and plan details
 - Added prorated upgrade info and trust signals (encryption, syncing, guarantee) to feature reference
+
+**Version 1.3** - Multisite licensing clarification and Elite bundle expansion
+- Entry 4: Multisite network license limit question with Elite upsell and competitor switch (NS Cloner Pro replacement)
+- Added network-level activation rule to Multisite Support feature reference (1 network = 1 activation, regardless of sub-site count)
+- Added Elite Bundle Includes section to Plan Recommendation Strategy (Duplicator Pro + WP Media Cleanup + Activity Log)
+- Added Activity Log as a cross-sell lever for Elite in "When to Recommend Elite" section
+- Added WMGS as a natural offer for complex multisite migration setups
 
 **Version 1.2** - Plan limits, corrections, and Basic → Plus/Pro upsell strategy
 - Entry 3: OneDrive feature confirmation with Basic → Plus/Pro plan recommendation (proven conversation pattern)
