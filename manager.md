@@ -20,6 +20,7 @@ This is the root skill that manages all customer success sub-skills. Use this wh
 | **Presale** | `presale/` | Potential customer asking feature questions, integration compatibility, pricing, or comparing before purchase — answer accurately, build confidence, cross-sell/upsell naturally |
 | **Renewal & Accounts** | `renewal/` | Customer asks about renewal pricing, license expiry, account management, license transfers, plan upgrades/downgrades, or lapsed license re-engagement — retain through value and smart exceptions |
 | **Prompt Library** | `prompt-library/` | Need a ready-to-use prompt for a specific scenario — search the library for proven templates and real case examples |
+| **Social Media Posts** | `social-media-posts/` | Generate weekly LinkedIn, Facebook, and X post drafts following Awesome Motive brand guidelines — runs every Wednesday, saves drafts to a dated file for review |
 
 ---
 

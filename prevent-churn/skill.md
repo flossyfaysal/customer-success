@@ -44,12 +44,19 @@ prevent-churn/
 
 ## How to Use This Skill
 
+**STOP — answer this before doing anything else:**
+
+> Is this a renewal refund request? (yes/no)
+
+- If the answer is not provided in the conversation context, ask the agent before proceeding.
+- If **yes**: stop and follow [scenarios/renewal-refund.md](scenarios/renewal-refund.md) instead of the standard flow
+- If **no**: continue with the steps below
+
 1. **Identify the scenario** — go to [scenarios/](scenarios/)
-2. **Is this a renewal refund request?** — If yes, stop and follow [scenarios/renewal-refund.md](scenarios/renewal-refund.md) instead of the standard flow
-3. **Check the frustration level** — see [core/tone-calibration.md](core/tone-calibration.md)
-4. **Build your response** — follow [core/response-template.md](core/response-template.md)
-5. **Pick phrases** — browse [phrase-banks/](phrase-banks/)
-6. **Review real examples** — see [examples/](examples/) or [prompt-library/](prompt-library/)
+2. **Check the frustration level** — see [core/tone-calibration.md](core/tone-calibration.md)
+3. **Build your response** — follow [core/response-template.md](core/response-template.md)
+4. **Pick phrases** — browse [phrase-banks/](phrase-banks/)
+5. **Review real examples** — see [examples/](examples/) or [prompt-library/](prompt-library/)
 
 ---
 
@@ -94,6 +101,7 @@ A good churn-prevention response should:
 **v2.0** — Restructured into modular folders and files; added platform-exit scenario, loyalty-appreciation phrase bank, platform-exit example, and prompt library entry 002 (appreciation churn pattern)
 **v2.1** — Added renewal-refund scenario: non-refundable policy, required inputs (reminder emails, sites registered), 50% partial discount offer, conditional reply template, and renewal-specific checklist items
 **v2.2** — Added features overview block (with links) as a required step in all replies; strengthened plugin-not-working scenario with explicit commitment language and direct phrases to use
+**v2.3** — Added mandatory yes/no gate at the top of "How to Use This Skill" to determine renewal vs. non-renewal before any other step
 
 
 **Notes:**
