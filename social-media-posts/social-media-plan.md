@@ -7,7 +7,7 @@ Add new topics at the bottom. Keep them brief - one line is enough.
 ---
 
 - [x] How we helped customers avoid data loss with smarter backup scheduling
-- [ ] Three teams, one fix - how collaboration across brands solved a user pain point
+- [x] Three teams, one fix - how collaboration across brands solved a user pain point
 - [ ] We went from bug report to live fix in under 48 hours
 - [ ] What small businesses get wrong about WordPress backups (and how we fix it)
 - [ ] A feature request that turned into one of our most-used tools
