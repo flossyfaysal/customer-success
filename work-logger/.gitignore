@@ -1,0 +1,13 @@
+# Personal log data — never commit
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
