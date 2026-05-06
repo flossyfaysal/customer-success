@@ -128,8 +128,25 @@ Every presale reply follows this flow:
 
 **How to position:**
 - Reference specific features available on higher tiers
-- Mention the 60% discount for new customers: coupon code **COMPLETE60OFF**
+- Mention the 60% discount for new customers: coupon code **COMPLETE60OFF** — frame it with the People First value: "We put people first and want to make this easy for you"
 - Link: https://duplicator.com/pricing/
+
+---
+
+## Company Values Integration
+
+When offering a discount, naturally reference the relevant company value as the reason behind the gesture. This makes the offer feel principled rather than transactional.
+
+| Trigger | Value | How to use it |
+|---|---|---|
+| Offering a discount (COMPLETE60OFF or any discount code) | **We put People First** | Frame the discount as a people-first decision — we care about their business and want to make it easy for them to get started |
+
+**Phrasing guidance:**
+- Weave the value into the sentence that introduces the discount — not as a separate paragraph or footer
+- It should read as the *reason* for the offer, not a corporate tagline
+
+**Example:**
+> "We put people first — we genuinely care about helping your business succeed. So to make it easy for you to get started, I'd like to offer you a 60% discount on your purchase. Just use coupon code COMPLETE60OFF at checkout."
 
 ---
 
@@ -179,6 +196,8 @@ Thank you for considering Duplicator Pro! I'd love to help you understand how we
 
 [Cross-sell section if relevant]
 
+[Optional: Pro Features Overview block if it adds value to reinforce full product ecosystem]
+
 I'm happy to answer any other questions or help you choose the right plan. Let me know!
 
 Best regards,
@@ -193,9 +212,11 @@ Great question about our plans! Here's a quick breakdown to help you choose the 
 
 [Pricing/licensing details tailored to their specific questions]
 
-[Discount mention if applicable: coupon code COMPLETE60OFF for 60% off]
+[Discount mention if applicable: weave in the People First value — "We put people first, and we want to make it easy for you to get started. Use coupon code COMPLETE60OFF for 60% off."]
 
 You can view all plans and features here: https://duplicator.com/pricing/
+
+[Optional: Pro Features Overview block to reinforce full value before closing]
 
 Let me know if you have any other questions — I'm happy to help you find the perfect fit!
 
@@ -254,6 +275,24 @@ Use these accurate feature descriptions when answering presale questions:
   - Business: 50GB — $99/yr
   - Pro: 100GB — $149/yr
   - Scale: 150GB — $199/yr
+
+---
+
+## Pro Features Overview Block
+
+Use this block in Scenario C (Comparison & Evaluation) and Scenario D (Pricing & Licensing) replies to reinforce the full value of Duplicator Pro before or after answering their specific questions. It works especially well as a closing element when you want to remind prospects of the complete feature ecosystem.
+
+Here's a quick reminder of what Duplicator Pro can do for you:
+
+- [Scheduled automatic backups](https://duplicator.com/knowledge-base/how-to-schedule-backups/) - set hourly, daily, or weekly schedules and let it run on autopilot
+- [Cloud storage support](https://duplicator.com/knowledge-base/duplicator-pro-storage/) - send backups directly to [Google Drive](https://duplicator.com/knowledge-base/how-to-back-up-a-wordpress-site-to-google-drive/), [Dropbox](https://duplicator.com/knowledge-base/how-to-back-up-wordpress-to-dropbox/), [OneDrive](https://duplicator.com/knowledge-base/how-to-back-up-a-wordpress-site-to-microsoft-onedrive/), [Amazon S3](https://duplicator.com/knowledge-base/how-to-back-up-a-wordpress-site-to-amazon-s3/), and more
+- [One-click site recovery](https://duplicator.com/knowledge-base/duplicator-pro-recovery-points/) - restore your site instantly if something goes wrong
+- [Full site migration](https://duplicator.com/knowledge-base/getting-started-with-migration/) - move your site to a new host or domain without the hassle
+- [One-click staging sites](https://duplicator.com/knowledge-base/creating-one-click-staging-site/) - test updates safely without touching your live site (Pro and above)
+- [Multisite network support](https://duplicator.com/knowledge-base/multisite-wordpress-backup-and-migration/) - back up and migrate entire WordPress multisite networks (Pro and above)
+- [WP Media Cleanup](https://wpmediacleanup.com/) - removes unused image bloat to shrink backup sizes (included free on Pro and above)
+- [Activity Log](https://duplicator.com/activity-log/) - full audit trail of logins, changes, and updates across your site (included free on Elite)
+- [Duplicator Cloud Storage](https://duplicator.com/pricing/#cloud) - native backup destination with no API tokens or authentication issues, and one-click cross-server restore
 
 ---
 
@@ -649,6 +688,7 @@ When crafting your presale reply, check:
 - [ ] Is the reply scannable (bold questions, short answers)?
 - [ ] Did I close with an offer to help further?
 - [ ] Does the tone feel like a knowledgeable human, not a sales page?
+- [ ] If this is a comparison or pricing question, did I include the Pro features overview?
 - [ ] Is this paste-ready with no commentary or metadata?
 - [ ] Did I use the customer's name?
 
@@ -685,6 +725,17 @@ When crafting your presale reply, check:
 ---
 
 ## Version Notes
+
+**Version 1.5** - Company values integration
+- Added Company Values Integration section: People First value when offering COMPLETE60OFF or any discount
+- Updated Scenario D output format template with People First framing for discount offers
+- Updated upsell playbook discount mention with People First framing guidance
+
+**Version 1.4** - Added Pro Features Overview block for presale value reinforcement
+- New section: Pro Features Overview Block (9 linked features) for optional use in Scenario C and D replies
+- Updated Scenario C and D output format templates with optional features block step
+- Updated Quick Start Checklist with features overview awareness for comparison/pricing scenarios
+- Features block synced from prevent-churn skill (canonical source)
 
 **Version 1.0** - Initial skill creation
 - Core structure for presale feature inquiry and purchase guidance replies

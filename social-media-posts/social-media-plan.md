@@ -9,7 +9,7 @@ Add new topics at the bottom. Keep them brief - one line is enough.
 - [x] How we helped customers avoid data loss with smarter backup scheduling
 - [x] Three teams, one fix - how collaboration across brands solved a user pain point
 - [x] We went from bug report to live fix in under 48 hours
-- [ ] What small businesses get wrong about WordPress backups (and how we fix it)
+- [x] What small businesses get wrong about WordPress backups (and how we fix it)
 - [ ] A feature request that turned into one of our most-used tools
 - [ ] Why we obsess over onboarding - and what changed when we did
 - [ ] The quiet wins: small product changes that made a big difference for users

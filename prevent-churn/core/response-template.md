@@ -8,6 +8,7 @@
 - Acknowledge their frustration specifically
 - Show you understand the emotional impact
 - Avoid corporate-speak or minimizing language
+- Reference the Customer's Success value as the stated reason for going the extra mile: "We fight for our customers' success - we only win when you win."
 
 ### 2. Root Cause Explanation (1-2 sentences)
 - Briefly explain likely technical reasons (without being condescending)
@@ -63,6 +64,7 @@ Use when the refund is inevitable: platform switch, business closure, genuine no
 ### 1. Acknowledge and Honor
 - Recognize their loyalty and history
 - Process the refund without resistance
+- Reference the Do The Right Thing value when confirming the refund: "We believe in doing the right thing, every time - and that means making sure you're taken care of."
 
 ### 2. Express Genuine Appreciation
 - Reference specific positive history (years with us, activations, usage)

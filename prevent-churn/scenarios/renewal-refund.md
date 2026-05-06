@@ -56,7 +56,7 @@ We're not looking to mislead anyone. If there's anything that could have made th
 [[END CONDITIONAL BLOCK]]
 
 [[INCLUDE IF CUSTOMER IS REQUESTING A RENEWAL REFUND AND NO DISCOUNT HAS BEEN OFFERED YET]]
-As outlined in our terms of service, renewals are non-refundable. However, we don't want to leave you feeling stuck, so we're happy to make an exception and offer a 50% discount on your recent renewal through a partial refund.
+As outlined in our terms of service, renewals are non-refundable. We believe in doing the right thing, every time - and in this case, the right thing is making sure you don't feel stuck. So we're happy to make an exception and offer a 50% discount on your recent renewal through a partial refund.
 
 That way, you'd be able to continue using Duplicator Pro for another year at a significant discount.
 

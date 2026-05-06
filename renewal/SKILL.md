@@ -80,6 +80,13 @@ Customer wants to renew but also change their plan tier — either upgrading for
 - Frame the discount as a special, personalized exception — not something everyone gets
 - Mention you've spoken with your team (implies effort and authority)
 
+#### 4b. New Features + Value Reinforcement (recommended)
+- Use the New Features Framing block to show the customer what their license includes today vs. when they first signed up
+- Frame it as the product growing with them: "your license gives you a lot more than when you first signed up"
+- Lead with the top 3 strongest hooks: staging sites, WP Media Cleanup, Duplicator Cloud Storage
+- Include the pricing page link so they can explore plan options: https://duplicator.com/pricing/
+- Skip only if the reply is already long and the customer's tone is impatient — in that case, link the pricing page without the full block
+
 #### 4. Renewal Details (clear, formatted)
 - Provide the renewal link (or placeholder if not available)
 - Provide the discount code
@@ -114,6 +121,8 @@ Customer wants to renew but also change their plan tier — either upgrading for
 - Provide the renewal link
 - If appropriate, offer a discount to incentivize prompt renewal
 - Explain any grace period or reactivation process
+- Include the New Features Framing block to remind them what staying unlocks — staging sites, WP Media Cleanup, Cloud Storage are the strongest hooks
+- Link the pricing page so they can see all plan options: https://duplicator.com/pricing/
 
 #### 4. Warm Close
 - Stand by to help with any questions
@@ -146,10 +155,12 @@ Customer wants to renew but also change their plan tier — either upgrading for
 - Express genuine happiness that they're coming back
 - No guilt about the lapse — keep it positive
 
-#### 2. Explain Their Options
+#### 2. Explain Their Options + What They Missed
 - Re-purchase at current pricing (with any applicable discount)
-- Explain what they'll regain (updates, support, new features released since expiry)
-- If significant time has passed, highlight new features they've missed
+- Explain what they'll regain (updates, support, access to all current features)
+- Use the New Features Framing block to show what has been added since they were last active — frame it as coming back to a better product than the one they left
+- Lead with the top 3: [staging sites](https://duplicator.com/knowledge-base/creating-one-click-staging-site/), [WP Media Cleanup](https://wpmediacleanup.com/), [Duplicator Cloud Storage](https://duplicator.com/pricing/#cloud)
+- Link the pricing page so they can consider whether a higher plan tier now fits their needs: https://duplicator.com/pricing/
 
 #### 3. Offer an Incentive
 - Provide a re-engagement discount code if available
@@ -167,7 +178,7 @@ Customer wants to renew but also change their plan tier — either upgrading for
 - Confirm you can help with both the renewal and the plan change
 
 #### 2. Explain the Options
-- If upgrading: highlight additional features they'll get, calculate the price difference
+- If upgrading: use the New Features Framing block to highlight what the higher tier unlocks — staging sites, WP Media Cleanup (free on Pro+), Activity Log (free on Elite), Cloud Storage, multisite support. Link each feature. Then reference the pricing page for the full comparison: https://duplicator.com/pricing/
 - If downgrading: confirm what they'll retain and what they'll lose, no judgment
 
 #### 3. Provide the Path
@@ -204,8 +215,44 @@ Use this as your internal guide for when and how to offer discounts:
 
 ### Standard Renewal Discount Codes
 - **SAVE50** — 50% off renewal (matching new customer pricing)
+- **SAVE60** — 60% off renewal (use for highly escalated or long-term customers)
 - Use the appropriate code based on the discount being offered
 - If no specific code is available, use a placeholder: `[DISCOUNT_CODE]`
+
+### Frustrated Customer Messaging Framework
+When a customer is frustrated about renewal pricing, use this exact framing sequence:
+1. **Acknowledge** their frustration with empathy (1-2 sentences)
+2. **Clarify the reminder emails** — we send two reminder emails before every renewal: one a month before the renewal, and one closer to the renewal date that includes the renewal price. Frame this as making sure they have the full picture. Do NOT say "to avoid confusion" — that implies the process is confusing. The pricing was communicated clearly in advance.
+3. **State the policy plainly**: "I want to be upfront with you — we don't offer discounts on renewals."
+4. **Pivot immediately**: "However, because [reason — your loyalty, your history with us], I'm making an exceptional exception for you..."
+5. **Offer the discount**: 50% or 60% depending on escalation level
+6. **Provide the code and link in the same breath** — don't make them ask again
+
+The sequence matters: clarifying the reminder emails corrects any "I wasn't informed" framing factually and calmly, then saying "we don't offer discounts" before giving one makes the exceptional offer feel genuinely special rather than routine.
+
+---
+
+## Company Values Integration
+
+When giving a renewal discount or handling a frustrated customer, reference the relevant company value as the human reason behind the action.
+
+| Trigger | Value | How to use it |
+|---|---|---|
+| Offering a renewal discount (SAVE50 or SAVE60) | **We put People First** | Frame the discount as a people-first decision — we care about the customer and their business, not just the transaction |
+| Frustrated customer about renewal pricing | **We Fight for Our Customer's Success** | Frame the empathy and extra effort as a commitment to their success — we only win when they win |
+
+**Phrasing guidance:**
+- For discounts: insert the People First value in the exception pivot sentence, as the reason you're making the exception
+- For frustrated customers: insert the Customer's Success value in the empathy opening, before addressing the pricing
+- One sentence each — the value is the stated reason, then the action follows
+
+**Examples:**
+
+Discount offer:
+> "We put people first - we genuinely care about your business and your continued success. That's why I'm making an exception for you and offering you [X%] off your renewal."
+
+Frustrated customer opening:
+> "We fight for our customers' success - we only win when you win. So I want to make sure we get this resolved in a way that works for you."
 
 ---
 
@@ -239,6 +286,71 @@ The renewal discount moment is one of the best opportunities to ask for a review
 | Account / License Management | https://duplicator.com/my-account/ |
 | Knowledge Base | https://duplicator.com/knowledge-base/ |
 | White Glove Migration Service | https://duplicator.com/migration-services/ |
+| One-click staging sites | https://duplicator.com/knowledge-base/creating-one-click-staging-site/ |
+| WP Media Cleanup | https://wpmediacleanup.com/ |
+| Duplicator Cloud Storage | https://duplicator.com/pricing/#cloud |
+| Activity Log | https://duplicator.com/activity-log/ |
+| One-click site recovery | https://duplicator.com/knowledge-base/duplicator-pro-recovery-points/ |
+| Multisite network support | https://duplicator.com/knowledge-base/multisite-wordpress-backup-and-migration/ |
+| Cloud storage integrations | https://duplicator.com/knowledge-base/duplicator-pro-storage/ |
+
+---
+
+## Pro Features Overview
+
+Use this block in Scenario A (Renewal Pricing Negotiation) and Scenario D (Lapsed License Re-engagement) to remind the customer of the full value they get (or regain) with their license. Include it when the customer hasn't articulated what they use the product for, or when they seem uncertain about the value proposition.
+
+Here's a quick reminder of what Duplicator Pro can do for you:
+
+- [Scheduled automatic backups](https://duplicator.com/knowledge-base/how-to-schedule-backups/) - set hourly, daily, or weekly schedules and let it run on autopilot
+- [Cloud storage support](https://duplicator.com/knowledge-base/duplicator-pro-storage/) - send backups directly to [Google Drive](https://duplicator.com/knowledge-base/how-to-back-up-a-wordpress-site-to-google-drive/), [Dropbox](https://duplicator.com/knowledge-base/how-to-back-up-wordpress-to-dropbox/), [OneDrive](https://duplicator.com/knowledge-base/how-to-back-up-a-wordpress-site-to-microsoft-onedrive/), [Amazon S3](https://duplicator.com/knowledge-base/how-to-back-up-a-wordpress-site-to-amazon-s3/), and more
+- [One-click site recovery](https://duplicator.com/knowledge-base/duplicator-pro-recovery-points/) - restore your site instantly if something goes wrong
+- [Full site migration](https://duplicator.com/knowledge-base/getting-started-with-migration/) - move your site to a new host or domain without the hassle
+- [One-click staging sites](https://duplicator.com/knowledge-base/creating-one-click-staging-site/) - test updates safely without touching your live site (Pro and above)
+- [Multisite network support](https://duplicator.com/knowledge-base/multisite-wordpress-backup-and-migration/) - back up and migrate entire WordPress multisite networks (Pro and above)
+- [WP Media Cleanup](https://wpmediacleanup.com/) - removes unused image bloat to shrink backup sizes (included free on Pro and above)
+- [Activity Log](https://duplicator.com/activity-log/) - full audit trail of logins, changes, and updates across your site (included free on Elite)
+- [Duplicator Cloud Storage](https://duplicator.com/pricing/#cloud) - native backup destination with no API tokens or authentication issues, and one-click cross-server restore
+
+---
+
+## New Features Framing
+
+Use this proactively in all renewal conversations to reframe renewal as a fresh investment in a growing product — not just paying for the same thing again. The product has improved significantly since most customers first purchased. Every renewal is a chance to remind them of that.
+
+### The Core Framing
+Set it up with one sentence before listing features:
+> "And just so you know - your license today gives you a lot more than when you first signed up. Here are some of the significant features we have added:"
+
+### When to Use It
+| Scenario | How to use it |
+|---|---|
+| **Scenario A** (Renewal Pricing Negotiation) | After the exception and discount — reinforce why the renewed license is worth it |
+| **Scenario B** (License Expiry Reminder) | When making renewal easy — show what staying unlocked |
+| **Scenario D** (Lapsed Re-engagement) | Lead with what they missed — make coming back feel like an upgrade |
+| **Scenario E** (Renewal With Upgrade) | Use to justify the specific higher tier features |
+
+### Top 3 for Retention Conversations
+These are the strongest hooks — tangible, high-value, and most likely to be new to existing customers:
+
+1. **[One-click staging sites](https://duplicator.com/knowledge-base/creating-one-click-staging-site/)** — safely test plugin updates, theme changes, or redesigns on a copy of the live site before touching anything real (Pro and above)
+2. **[WP Media Cleanup](https://wpmediacleanup.com/)** — removes unused image sizes and orphaned media files, directly reducing backup sizes and speeding up the process (free with Pro and above)
+3. **[Duplicator Cloud Storage](https://duplicator.com/pricing/#cloud)** — native backup destination built specifically for Duplicator, with no API tokens or authentication issues and one-click cross-server restore
+
+### Full New Features Block
+Use this block in replies when reinforcing renewal value. Adapt the intro sentence to fit the tone:
+
+> And just so you know - your license today gives you a lot more than when you first signed up. Here are some of the significant features included with your plan:
+>
+> - [One-click staging sites](https://duplicator.com/knowledge-base/creating-one-click-staging-site/) - safely test updates and changes without touching your live site (Pro and above)
+> - [WP Media Cleanup](https://wpmediacleanup.com/) - removes unused image bloat to shrink backup sizes and speed up backups (free with Pro and above)
+> - [Duplicator Cloud Storage](https://duplicator.com/pricing/#cloud) - our native backup destination with no API tokens, no authentication headaches, and one-click cross-server restore
+> - [Activity Log](https://duplicator.com/activity-log/) - full audit trail of logins, changes, and updates across your site (free with Elite)
+> - [One-click site recovery](https://duplicator.com/knowledge-base/duplicator-pro-recovery-points/) - restore your site instantly from a saved recovery point if anything goes wrong
+> - [Multisite network support](https://duplicator.com/knowledge-base/multisite-wordpress-backup-and-migration/) - back up and migrate entire WordPress multisite networks (Pro and above)
+> - [Cloud storage integrations](https://duplicator.com/knowledge-base/duplicator-pro-storage/) - send backups directly to [Google Drive](https://duplicator.com/knowledge-base/how-to-back-up-a-wordpress-site-to-google-drive/), [Dropbox](https://duplicator.com/knowledge-base/how-to-back-up-wordpress-to-dropbox/), [OneDrive](https://duplicator.com/knowledge-base/how-to-back-up-a-wordpress-site-to-microsoft-onedrive/), [Amazon S3](https://duplicator.com/knowledge-base/how-to-back-up-a-wordpress-site-to-amazon-s3/), and more
+>
+> You can view and compare all plans here: https://duplicator.com/pricing/
 
 ---
 
@@ -252,8 +364,10 @@ The renewal discount moment is one of the best opportunities to ask for a review
 
 ### Frustrated / Feels Unfair
 - **Tone**: Empathetic, understanding, proactive
-- **Approach**: Lead with empathy, acknowledge the pricing gap is a valid concern, resolve quickly without making them work for it
+- **Approach**: Lead with empathy about wanting a better price — NOT about being surprised by the price. Do not concede that the renewal price was unclear, unexplained, or came out of nowhere. We send two reminder emails before every renewal (one a month before, one closer to renewal with the price), so the pricing was communicated clearly. Then be direct and upfront that we do not offer discounts on renewals — state this clearly before pivoting. Then immediately offer the exceptional exception (50% or 60% off). Resolve quickly without making them work for it.
+- **Key messaging sequence**: (1) Empathy about wanting a better price — acknowledge the frustration of the ask, not the premise that pricing was unclear (2) Clarify the reminder emails show the price was communicated in advance (3) "We don't offer discounts on renewals" — stated plainly (4) "However, as an exceptional case, we're offering you [50% / 60%] off" (5) Code and link immediately
 - **Length**: Shorter — resolve fast, don't over-explain
+- **Discount**: 50% off (SAVE50) for standard frustrated customers; 60% off for highly escalated situations or long-term loyal customers threatening to leave permanently
 - **Review ask**: Only if frustration is resolved and tone has shifted positive
 
 ### Matter-of-Fact / Just Wants the Discount
@@ -272,6 +386,7 @@ The renewal discount moment is one of the best opportunities to ask for a review
 
 ## What NOT to Do
 
+- **Don't concede that the renewal price was unclear or a surprise** — we send two clear reminder emails before every renewal, one of which includes the renewal price. Agreeing that the pricing was unexplained or poorly communicated is factually wrong and damages trust in our process
 - **Don't make them feel bad for asking** — a discount request is a buying signal
 - **Don't be rigid about policy** — if the customer can get a better deal by leaving and coming back, your policy is working against you
 - **Don't over-explain the policy** — one sentence is enough. Spending 3 paragraphs justifying the renewal price makes you look defensive
@@ -300,6 +415,8 @@ Hi [Name],
 
 [Renewal link and discount code — clear, easy to use]
 
+[New Features Framing block — "your license gives you a lot more than when you first signed up." Include top 3 hooks: staging sites, WP Media Cleanup, Cloud Storage — with links. Close with the pricing page link.]
+
 [Trustpilot review ask — tied to their positive sentiment, with direct link]
 
 [Warm close — offer help if they have trouble]
@@ -317,6 +434,8 @@ Hi [Name],
 [Address their specific concern or question]
 
 [Renewal details — link, any applicable discount, what they retain by renewing]
+
+[New Features Framing block — "your license gives you a lot more than when you first signed up." Include top 3 hooks: staging sites, WP Media Cleanup, Cloud Storage — with links. Close with the pricing page link.]
 
 [Close — no pressure, standing by to help]
 
@@ -346,7 +465,9 @@ Hi [Name],
 
 [Welcome back opening — genuine happiness]
 
-[Options and what they'll regain — new features, updates, support]
+[New Features Framing block — "you're coming back to a better product than the one you left." Lead with top 3 hooks: staging sites, WP Media Cleanup, Cloud Storage — with links. Include pricing page link so they can consider whether a higher plan now fits their needs.]
+
+[Options and what they'll regain — updates, support, full access to all current features]
 
 [Incentive — discount code, welcome back gesture]
 
@@ -384,6 +505,8 @@ When crafting your renewal/accounts reply, check:
 - [ ] Did I include the discount code and renewal link?
 - [ ] Did I make it friction-free to take action?
 - [ ] Did I ask for a Trustpilot review (when appropriate)?
+- [ ] Did I include the New Features Framing block — staging sites, WP Media Cleanup, Cloud Storage with links — to show the product has grown since they first signed up?
+- [ ] Did I include the pricing page link (https://duplicator.com/pricing/) so the customer can explore plan options?
 - [ ] Does the tone match their energy (polite, frustrated, matter-of-fact)?
 - [ ] Is this paste-ready with no commentary or metadata?
 - [ ] Did I use the customer's name?
@@ -426,11 +549,21 @@ Study all entries below before generating. Learn the approach patterns — how t
 >
 > **A Special Exception for You**
 >
-> However, because we truly value your loyalty and want to keep you as a long-term customer without the hassle of you having to let your license expire, I've spoken with my team. While we don't normally offer discounts for renewals, we are making a special exception for you and providing a 50% discount on your upcoming renewal.
+> However, because we truly value your loyalty and want to keep you as a long-term customer without the hassle of you having to let your license expire, I've spoken with my team. We put people first - we genuinely care about your business. While we don't normally offer discounts for renewals, we are making a special exception for you and providing a 50% discount on your upcoming renewal.
 >
 > You can use the link below to renew at the discounted rate:
 > [Renew with 50% Discount here]
 > Discount Code: **SAVE50**
+>
+> And just so you know - your license today gives you a lot more than when you first signed up. Here are some of the significant features included with your plan:
+>
+> - [One-click staging sites](https://duplicator.com/knowledge-base/creating-one-click-staging-site/) - safely test updates and changes without touching your live site (Pro and above)
+> - [WP Media Cleanup](https://wpmediacleanup.com/) - removes unused image bloat to shrink backup sizes and speed up backups (free with Pro and above)
+> - [Duplicator Cloud Storage](https://duplicator.com/pricing/#cloud) - our native backup destination with no API tokens, no authentication headaches, and one-click cross-server restore
+> - [Activity Log](https://duplicator.com/activity-log/) - full audit trail of logins, changes, and updates across your site (free with Elite)
+> - [One-click site recovery](https://duplicator.com/knowledge-base/duplicator-pro-recovery-points/) - restore your site instantly from a saved recovery point if anything goes wrong
+>
+> You can view and compare all plans here: https://duplicator.com/pricing/
 >
 > Could you do us a small favor? Since you mentioned how much you enjoy the plugin, would you mind sharing your experience on Trustpilot? The biggest compliment a power user like you can give is telling others about us, and it helps our team immensely! You can leave your review here: https://www.trustpilot.com/evaluate/duplicator.com
 >
@@ -438,11 +571,118 @@ Study all entries below before generating. Learn the approach patterns — how t
 >
 > Best regards,
 
-**Pattern tags:** `renewal-negotiation` `pricing-gap` `special-exception` `loyalty-retention` `close-the-workaround` `trustpilot-ask` `polite-tone` `discount-code` `friction-free`
+**Pattern tags:** `renewal-negotiation` `pricing-gap` `special-exception` `loyalty-retention` `close-the-workaround` `new-features-framing` `trustpilot-ask` `polite-tone` `discount-code` `friction-free`
+
+---
+
+### Entry 2 - Scenario A: Renewal Pricing Negotiation (Frustrated Customer)
+
+**Input:** Customer is frustrated about the renewal price — feels it is unfair that new customers get a better deal — tone is sharp or impatient — may be threatening to cancel or switch to a competitor
+
+**Approach used:**
+1. **Open with empathy** — acknowledge their frustration about wanting a better price, but do not validate or concede that the pricing was unclear, unexplained, or came as a surprise. Empathize with the situation, not with the premise
+2. **Clarify the reminder emails** — note that we send two reminder emails before every renewal: one a month before the renewal and one closer to the renewal date that includes the renewal price. This directly addresses any "I didn't know" framing without being accusatory — it simply shows the price was communicated clearly in advance
+3. **State the policy plainly and upfront** — "I want to be upfront with you: we don't offer discounts on renewals." Don't soften or hedge it. Saying it plainly before the pivot makes the offer land harder
+4. **Pivot immediately with the exceptional offer** — "However, because I value your loyalty, I am making an exceptional exception for you." The contrast is the point — they were just told no, and now they're getting a yes
+5. **Match or exceed expectations** — offer 50% off (SAVE50) for standard frustrated customers; 60% off (SAVE60) for highly escalated cases or long-term loyal customers at serious risk of leaving
+6. **Provide the code and link immediately** — don't make them ask again or wait for a follow-up
+7. **Keep it short** — frustrated customers don't want paragraphs. Resolve fast, show them the door to renew
+
+**Why this approach works:**
+- Mentioning the reminder emails neutralizes the "I was surprised by the price" frustration without sounding defensive — it simply shows the process was transparent
+- Being upfront that "we don't offer discounts on renewals" before offering one makes the offer feel genuinely exceptional, not like a routine coupon
+- The sharp contrast between policy ("we don't do this") and action ("but we're doing it for you") creates a real sense of personal treatment
+- Resolving fast without making them work for it defuses the frustration more effectively than lengthy empathy paragraphs
+
+**Output (50% frustrated customer):**
+
+> Hi [Customer Name],
+>
+> We fight for our customers' success - we only win when you win. I completely understand you'd like a better price, and I appreciate you reaching out directly.
+>
+> I do want to make sure you have the full picture: we send two reminder emails before every renewal - one a month before the renewal date, and one closer to the renewal that includes the renewal price - so the pricing is always communicated clearly in advance.
+>
+> I also want to be upfront with you: we don't offer discounts on renewals. Our renewal pricing is the standard rate as listed on our pricing page.
+>
+> **A Special Exception for You**
+>
+> However, because we put people first and I genuinely value your loyalty, I am making an exceptional exception just for you. I am offering you a 50% discount on your renewal - something we don't normally do.
+>
+> You can use the link below to renew at the discounted rate:
+> [Renew with 50% Discount here]
+> Discount Code: **SAVE50**
+>
+> Please let me know if you have any trouble applying the code and I will be happy to help.
+>
+> Best regards,
+
+**Output (60% - highly escalated or long-term loyal customer):**
+
+> Hi [Customer Name],
+>
+> We fight for our customers' success - we only win when you win. I completely hear you, and I want to address this directly.
+>
+> I do want to make sure you have the full picture: we send two reminder emails before every renewal - one a month before the renewal date, and one closer to the renewal that includes the renewal price - so the pricing is always communicated clearly in advance.
+>
+> I'll be honest with you: we don't offer discounts on renewals. That is our standard policy, and I won't pretend otherwise.
+>
+> **An Exceptional Offer, Just for You**
+>
+> That said, we put people first - and given how long you have been with us and how much I value your continued trust in Duplicator Pro, I am going beyond our standard policy to offer you an exceptional 60% discount on your renewal. This is not something we do for everyone - it is a personal exception I am making specifically for you.
+>
+> You can use the link below to renew at the discounted rate:
+> [Renew with 60% Discount here]
+> Discount Code: **SAVE60**
+>
+> I hope this shows how much we value having you as a customer. Please let me know if you have any trouble with the code.
+>
+> Best regards,
+
+**Pattern tags:** `renewal-negotiation` `frustrated-tone` `policy-then-exception` `special-exception` `loyalty-retention` `discount-code` `friction-free` `escalated`
 
 ---
 
 ## Version Notes
+
+**Version 1.6** - New Features Framing for plan purchase encouragement
+- Added "New Features Framing" section with top 3 retention hooks (staging sites, WP Media Cleanup, Cloud Storage), full linked feature block, and per-scenario usage guidance
+- Updated Scenario A step 4b: renamed to "New Features + Value Reinforcement," made recommended (not just optional), added pricing page link
+- Updated Scenario B step 3: added new features block and pricing page link
+- Updated Scenario D step 2: renamed and strengthened with specific feature links and "you're coming back to a better product" framing
+- Updated Scenario E step 2: added specific feature links and pricing page for upgrade conversations
+- Updated all Output Format templates (Scenarios A, B, D) with new features block placeholder
+- Updated Quick Start Checklist: replaced generic features overview check with specific new features + pricing page checks
+- Updated Entry 1 output: added full new features block with 5 linked features and pricing page link
+- Updated Key Links Reference: added 7 feature links (staging sites, WP Media Cleanup, Cloud Storage, Activity Log, recovery, multisite, cloud storage integrations)
+
+**Version 1.5** - Company values integration
+- Added Company Values Integration section: People First for discounts, Customer's Success for frustrated customers
+- Updated Entry 1 output: People First sentence added to the exception pivot paragraph
+- Updated Entry 2 outputs (50% and 60%): Customer's Success added to empathy opening, People First added to the exception paragraph
+
+**Version 1.4** - Corrected language that implied renewal pricing was unclear or surprising
+- Removed "they are right to notice the gap" and "to avoid any confusion" phrasing — both implied the process was confusing
+- Updated Frustrated tone calibration: empathy is for wanting a better price, NOT for the premise that pricing was unexplained
+- Updated key messaging sequence to clarify reminder emails as "full picture" context, not a defensive rebuttal
+- Added explicit "What NOT to Do" rule: do not concede that renewal pricing was unclear or a surprise
+- Updated both Entry 2 output templates to remove "to avoid any confusion" and replace with "I want to make sure you have the full picture"
+
+**Version 1.3** - Renewal reminder email context for frustrated customers
+- Added renewal reminder email messaging to Frustrated Customer Messaging Framework (step 2): two emails sent before renewal - one a month before, one closer to renewal with the price included
+- Updated Entry 2 approach notes to include reminder emails as step 2 in the frustrated customer sequence
+- Updated both Entry 2 output templates (50% and 60%) to include the reminder emails paragraph before the policy statement
+
+**Version 1.2** - Frustrated customer pricing negotiation update
+- Updated "Frustrated / Feels Unfair" tone calibration with explicit "state policy first, then pivot to exceptional discount" sequence
+- Added Frustrated Customer Messaging Framework to Discount Policy Reference
+- Added SAVE60 (60% off) code for highly escalated or long-term loyal customers
+- Added Entry 2 to Prompt Library: two output variations (50% and 60%) for frustrated renewal customers
+
+**Version 1.1** - Added Pro Features Overview block for value reinforcement
+- New section: Pro Features Overview (9 linked features) for optional use in Scenario A and D replies
+- Added step 4b to Scenario A response structure: optional "Reinforce Value" step to include features overview when customer uncertainty is detected
+- Updated Quick Start Checklist with features overview awareness for renewal scenarios
+- Features block synced from prevent-churn skill (canonical source)
 
 **Version 1.0** - Initial skill creation
 - Core structure for renewal and account management replies

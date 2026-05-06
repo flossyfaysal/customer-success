@@ -50,7 +50,7 @@ When a customer directly asks about migration services, we follow an audit-first
 2. **Set clear expectations for live sites** — if the site is a live e-commerce store (WooCommerce, active orders, payment gateways), explain that maintenance mode is required during migration. The backup captures a single point in time — any transactions after the backup won't carry over.
 3. **Explain the audit-first approach** — we need to assess site size, complexity, integrations, and potential issues before quoting.
 4. **Outline the migration process** — step-by-step so the customer knows exactly what to expect.
-5. **License requirement** — if the customer is not a known Duplicator Pro user, mention that a valid paid license is required. Offer the 60% discount with coupon code: **COMPLETE60OFF**. Link to pricing: https://duplicator.com/pricing/
+5. **License requirement** — if the customer is not a known Duplicator Pro user, mention that a valid paid license is required. Offer the 60% discount with coupon code: **COMPLETE60OFF**, framed with the People First value: "We put people first - we want to make it easy for you to get started." Link to pricing: https://duplicator.com/pricing/
 6. **Provide pricing ranges** — share all tiers so they have a ballpark, but clarify the final quote comes after audit.
 7. **Request access credentials** — WordPress admin + new hosting access for the audit.
 8. **Link terms and conditions** — https://duplicator.com/terms-and-conditions-of-migration-services/
@@ -98,9 +98,26 @@ Always use these exact URLs and anchor text:
 |---|---|---|
 | Installer log guide | How do I read the installer log? | https://duplicator.com/knowledge-base/how-do-i-read-the-installer-log/ |
 | Package file sharing guide | How do I share my package file? | https://duplicator.com/knowledge-base/how-do-i-share-my-package-file/ |
-| White Glove Migration Service | White Glove Migration Service | https://duplicator.com/migration-services/ |
+| White Glove Migration Service | White Glove Migration Service | https://duplicator.com/knowledge-base/white-glove-migration-guide/ |
 | Pricing page | Pricing | https://duplicator.com/pricing/ |
 | Terms and Conditions | Terms and Conditions | https://duplicator.com/terms-and-conditions-of-migration-services/ |
+
+## Company Values Integration
+
+When offering a discount, naturally reference the relevant company value as the reason behind the gesture.
+
+| Trigger | Value | How to use it |
+|---|---|---|
+| Offering the COMPLETE60OFF discount (license prerequisite) | **We put People First** | Frame the discount as a people-first decision — we care about making it easy for the customer to get started, not just about making a sale |
+
+**Phrasing guidance:**
+- Insert the value in the sentence that introduces the discount offer — not as a standalone paragraph
+- It should feel like the human reason behind the offer
+
+**Example:**
+> "We put people first — we want to make it as easy as possible for you to get started. If you don't have a Duplicator Pro license yet, I can offer you a 60% discount on your initial purchase. Just use coupon code: COMPLETE60OFF"
+
+---
 
 ## Rules
 
@@ -190,7 +207,7 @@ Study all entries below before generating. Match the voice, warmth, and personal
 >
 > **A Hands-Off Alternative:**
 >
-> Encoding issues can sometimes take a bit of back-and-forth to nail down. If you'd rather skip the troubleshooting entirely, our [White Glove Migration Service](https://duplicator.com/migration-services/) team handles cases like this daily and can take care of everything for you — just something to consider if you'd prefer a hands-off approach.
+> Encoding issues can sometimes take a bit of back-and-forth to nail down. If you'd rather skip the troubleshooting entirely, our [White Glove Migration Service](https://duplicator.com/knowledge-base/white-glove-migration-guide/) team handles cases like this daily and can take care of everything for you — just something to consider if you'd prefer a hands-off approach.
 >
 > Send those files over whenever you're ready and we'll get this sorted out!
 >
@@ -229,7 +246,7 @@ Study all entries below before generating. Match the voice, warmth, and personal
 > - Access to your current WordPress admin (HostUS)
 > - Access to your new OVH Performance hosting (cPanel/SSH credentials)
 >
-> Please note that you will need a valid paid license of **Duplicator Pro** in order to use the service. If you don't have one yet, I can offer you a **60% discount** on your initial purchase. Just use coupon code: **COMPLETE60OFF**
+> Please note that you will need a valid paid license of **Duplicator Pro** in order to use the service. We put people first - we want to make it as easy as possible for you to get started. If you don't have one yet, I can offer you a **60% discount** on your initial purchase. Just use coupon code: **COMPLETE60OFF**
 >
 > To purchase, visit our pricing page: https://duplicator.com/pricing/
 >
@@ -275,7 +292,7 @@ Study all entries below before generating. Match the voice, warmth, and personal
 > Before I can provide a final price and an accurate timeline, we need to perform a site audit. Migration costs typically range from $299 to $499+ depending on the total data volume and database complexity of your store. Once we audit the site, I will send you a personalized purchase link and a guaranteed timeline (usually around 3 business days).
 >
 > **License Requirement**
-> Please note that a valid Duplicator Pro license is required to use our White Glove service. If you don't have one yet, I can offer you a special 60% discount for your initial purchase to get us started.
+> Please note that a valid Duplicator Pro license is required to use our White Glove service. We put people first - we want to make this as easy as possible for you. If you don't have one yet, I can offer you a special 60% discount for your initial purchase to get us started.
 >
 > Coupon Code: **COMPLETE60OFF**
 > Purchase here: https://duplicator.com/pricing/
@@ -286,6 +303,17 @@ Study all entries below before generating. Match the voice, warmth, and personal
 >
 > Best regards,
 
+
+## Version Notes
+
+**Version 1.1** - Company values integration
+- Added Company Values Integration section: People First value when offering COMPLETE60OFF discount
+- Updated Scenario B flow instructions with People First framing for discount offer
+- Updated Entry 2 and Entry 3 output templates with People First sentence in the license/discount section
+
+**Version 1.0** - Initial skill creation
+
+---
 
 **Notes:**
 Don't use the ` or — (em dash) characters in the reply. Keep it simple with hyphens and standard punctuation.

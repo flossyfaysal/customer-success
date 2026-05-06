@@ -1,6 +1,19 @@
 $ErrorActionPreference = "Stop"
 Set-Location "E:\wamp\www\awesomemotive\support\customer-success"
 
+$logDir = "E:\wamp\www\awesomemotive\support\customer-success\social-media-posts\logs"
+if (-not (Test-Path $logDir)) { New-Item -ItemType Directory -Path $logDir | Out-Null }
+$logFile = Join-Path $logDir ("run-" + (Get-Date -Format "yyyy-MM-dd") + ".log")
+
+function Write-Log {
+    param([string]$msg)
+    $line = "[$(Get-Date -Format 'HH:mm:ss')] $msg"
+    Write-Host $line
+    Add-Content -Path $logFile -Value $line -Encoding UTF8
+}
+
+Write-Log "Starting social-media-posts skill run"
+
 $prompt = @"
 Working directory: E:\wamp\www\awesomemotive\support\customer-success
 Run these steps now for Awesome Motive / Duplicator (duplicator.com). Complete all steps without asking questions.
@@ -95,4 +108,17 @@ Format the Slack message as:
 [post]
 "@
 
-$prompt | & "C:\Users\Ezz\AppData\Roaming\npm\claude.cmd" --dangerously-skip-permissions -p --input-format text
+try {
+    Write-Log "Invoking Claude CLI"
+    $output = $prompt | & "C:\Users\Ezz\AppData\Roaming\npm\claude.cmd" --dangerously-skip-permissions -p --input-format text 2>&1
+    Write-Log "Claude CLI exited with code: $LASTEXITCODE"
+    $output | Add-Content -Path $logFile -Encoding UTF8
+    if ($LASTEXITCODE -ne 0) {
+        Write-Log "ERROR: Claude CLI returned non-zero exit code $LASTEXITCODE"
+        exit $LASTEXITCODE
+    }
+    Write-Log "Run completed successfully"
+} catch {
+    Write-Log "EXCEPTION: $_"
+    exit 1
+}

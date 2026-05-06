@@ -67,6 +67,7 @@ Every CX Approach reply follows this flow:
 - Reinforce that your goal is their continuous backup success
 - "We want you to have reliable backups running — that's when we know we've done our job"
 - Make them feel like their success is personal to you
+- When the customer is frustrated or escalating, open with the Customer's Success value before the goal statement: "We fight for our customers' success - we only win when you win."
 
 ### 6. Service Reminder (1-2 sentences, optional)
 - If relevant, mention White Glove Migration Service or other services
@@ -251,7 +252,7 @@ Hi [Customer Name],
 
 First and foremost, [genuine congratulations on their personal milestone — be specific and warm, not generic]. [1-2 sentences acknowledging how their life situation affects their time/energy right now.]
 
-I've gone ahead and processed your refund immediately so you have one less thing on your plate. Your subscription is now fully canceled. If you paid via PayPal, the funds should appear in your account right away; for credit cards, it typically takes 5–10 business days to reflect on your statement.
+We believe in doing the right thing, every time - and in this case, that means making sure you have one less thing on your plate. I've gone ahead and processed your refund immediately. Your subscription is now fully canceled. If you paid via PayPal, the funds should appear in your account right away; for credit cards, it typically takes 5-10 business days to reflect on your statement.
 
 [1-2 sentences of genuine confidence about their project/path forward — reference specifically what they're moving to or working on.]
 
@@ -373,7 +374,7 @@ Hi [Customer Name],
 
 First and foremost, a huge congratulations on the birth of your sixth baby! That is such wonderful news. I can only imagine how hectic life is for you right now, and the last thing you need is extra stress from a website.
 
-I've gone ahead and processed your refund immediately so you have one less thing on your plate. Your subscription is now fully canceled. If you paid via PayPal, the funds should appear in your account right away; for credit cards, it typically takes 5–10 business days to reflect on your statement.
+We believe in doing the right thing, every time - and right now that means making sure you have one less thing on your plate. I've gone ahead and processed your refund immediately. Your subscription is now fully canceled. If you paid via PayPal, the funds should appear in your account right away; for credit cards, it typically takes 5-10 business days to reflect on your statement.
 
 Please don't worry about the site — with ProPhoto on the case, I'm confident you'll have it looking beautiful and running smoothly again very soon. We truly wish you the best of luck with the new site design and, more importantly, a smooth and joyful transition with your growing family. We hope life becomes a little easier for you as you settle into this new chapter!
 
@@ -666,6 +667,7 @@ When crafting your CX Approach reply, check:
 - [ ] If they purchased but haven't activated, did I mention it gently without pressure?
 - [ ] If there's an unresolved issue with no feedback, did I acknowledge it without guilt-tripping?
 - [ ] Did I offer to do the actual work (not just investigate) when appropriate?
+- [ ] Did I include the Pro features overview when re-engaging a dormant customer, nudging an unactivated license, or celebrating success?
 - [ ] Is this paste-ready with no commentary or metadata?
 
 ---
@@ -684,6 +686,48 @@ When crafting your CX Approach reply, check:
 
 ---
 
+## Pro Features Overview
+
+When re-engaging a dormant customer, nudging an unactivated license, or celebrating a success, include this block to reinforce the ongoing value of Duplicator Pro. Skip for quick operational follow-ups ("did you try those steps yet?").
+
+Here's a quick reminder of what Duplicator Pro can do for you:
+
+- [Scheduled automatic backups](https://duplicator.com/knowledge-base/how-to-schedule-backups/) - set hourly, daily, or weekly schedules and let it run on autopilot
+- [Cloud storage support](https://duplicator.com/knowledge-base/duplicator-pro-storage/) - send backups directly to [Google Drive](https://duplicator.com/knowledge-base/how-to-back-up-a-wordpress-site-to-google-drive/), [Dropbox](https://duplicator.com/knowledge-base/how-to-back-up-wordpress-to-dropbox/), [OneDrive](https://duplicator.com/knowledge-base/how-to-back-up-a-wordpress-site-to-microsoft-onedrive/), [Amazon S3](https://duplicator.com/knowledge-base/how-to-back-up-a-wordpress-site-to-amazon-s3/), and more
+- [One-click site recovery](https://duplicator.com/knowledge-base/duplicator-pro-recovery-points/) - restore your site instantly if something goes wrong
+- [Full site migration](https://duplicator.com/knowledge-base/getting-started-with-migration/) - move your site to a new host or domain without the hassle
+- [One-click staging sites](https://duplicator.com/knowledge-base/creating-one-click-staging-site/) - test updates safely without touching your live site (Pro and above)
+- [Multisite network support](https://duplicator.com/knowledge-base/multisite-wordpress-backup-and-migration/) - back up and migrate entire WordPress multisite networks (Pro and above)
+- [WP Media Cleanup](https://wpmediacleanup.com/) - removes unused image bloat to shrink backup sizes (included free on Pro and above)
+- [Activity Log](https://duplicator.com/activity-log/) - full audit trail of logins, changes, and updates across your site (included free on Elite)
+- [Duplicator Cloud Storage](https://duplicator.com/pricing/#cloud) - native backup destination with no API tokens or authentication issues, and one-click cross-server restore
+
+---
+
+## Company Values Integration
+
+When processing a refund or handling a frustrated customer, reference the relevant company value naturally as the reason behind the action.
+
+| Trigger | Value | How to use it |
+|---|---|---|
+| Processing a refund (graceful closure or any cancellation) | **We Do The Right Thing** | Frame the refund as the right call — we believe in doing right by our customers, even when it costs us |
+| Frustrated or escalating customer | **We Fight for Our Customer's Success** | Frame the extra effort as a commitment to their success — we only win when they win |
+
+**Phrasing guidance:**
+- For refunds: insert the value in the same sentence where you confirm the refund is processed
+- For frustrated customers: insert the value in the empathy opening or the statement that explains why you're going the extra mile
+- Keep it to one sentence — the value is the reason, not a speech
+
+**Examples:**
+
+Refund:
+> "We believe in doing the right thing, every time - and in this case, that means making sure you're not out of pocket. I've gone ahead and processed your refund immediately."
+
+Frustrated customer:
+> "We fight for our customers' success - we only win when you win. So let me make sure we get this properly resolved for you."
+
+---
+
 ## Rules
 
 1. Always output only the reply — paste-ready, no commentary, no metadata
@@ -696,6 +740,17 @@ When crafting your CX Approach reply, check:
 ---
 
 ## Version Notes
+
+**Version 1.4** - Company values integration
+- Added Company Values Integration section: Do The Right Thing for refunds, Customer's Success for frustrated customers
+- Updated Scenario 7 template: Do The Right Thing framing added to refund processing line
+- Updated Case 1 (New Baby + Refund) proven reply with Do The Right Thing sentence
+- Updated Response Structure Step 5 (Our Goal Statement) with Customer's Success guidance for frustrated/escalating scenarios
+
+**Version 1.3** - Added Pro Features Overview block for value reinforcement
+- New section: Pro Features Overview (9 linked features) for use when re-engaging dormant customers, nudging unactivated licenses, or celebrating success
+- Updated Quick Start Checklist with features overview awareness
+- Features block synced from prevent-churn skill (canonical source)
 
 **Version 1.2** - Added Purchased but Never Activated + Proactive Backup Offer pattern
 - New Scenario 9: Purchased but Never Activated + Unresolved Issue + Proactive "Let Us Do It For You" Offer

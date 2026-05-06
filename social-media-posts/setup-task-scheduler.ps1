@@ -1,4 +1,4 @@
-# Run this once as Administrator to register the weekly task.
+# Run this once as Administrator to register (or re-register) the weekly task.
 
 $action = New-ScheduledTaskAction `
     -Execute "powershell.exe" `
@@ -8,9 +8,11 @@ $action = New-ScheduledTaskAction `
 $trigger = New-ScheduledTaskTrigger -Weekly -DaysOfWeek Wednesday -At "17:00"
 
 $settings = New-ScheduledTaskSettingsSet `
-    -ExecutionTimeLimit (New-TimeSpan -Hours 1) `
+    -ExecutionTimeLimit (New-TimeSpan -Hours 2) `
     -StartWhenAvailable `
-    -RunOnlyIfNetworkAvailable
+    -RunOnlyIfNetworkAvailable `
+    -DisallowStartIfOnBatteries $false `
+    -StopIfGoingOnBatteries $false
 
 Register-ScheduledTask `
     -TaskName "AM Social Media Posts - Weekly" `
@@ -22,3 +24,4 @@ Register-ScheduledTask `
     -Force
 
 Write-Host "Task registered. Next run: Wednesday 5:00 PM"
+Write-Host "Logs will be written to: social-media-posts\logs\"

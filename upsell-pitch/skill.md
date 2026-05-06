@@ -31,6 +31,24 @@ All plans include: unlimited backups and migrations, daily scheduled backups, 1-
 
 ---
 
+## Pro Features Overview Block
+
+Use this block when a customer asks "what would I actually get?" or when your pitch context benefits from showing the full feature ecosystem before zooming into a specific upsell target.
+
+Here's a quick reminder of what Duplicator Pro can do for you:
+
+- [Scheduled automatic backups](https://duplicator.com/knowledge-base/how-to-schedule-backups/) - set hourly, daily, or weekly schedules and let it run on autopilot
+- [Cloud storage support](https://duplicator.com/knowledge-base/duplicator-pro-storage/) - send backups directly to [Google Drive](https://duplicator.com/knowledge-base/how-to-back-up-a-wordpress-site-to-google-drive/), [Dropbox](https://duplicator.com/knowledge-base/how-to-back-up-wordpress-to-dropbox/), [OneDrive](https://duplicator.com/knowledge-base/how-to-back-up-a-wordpress-site-to-microsoft-onedrive/), [Amazon S3](https://duplicator.com/knowledge-base/how-to-back-up-a-wordpress-site-to-amazon-s3/), and more
+- [One-click site recovery](https://duplicator.com/knowledge-base/duplicator-pro-recovery-points/) - restore your site instantly if something goes wrong
+- [Full site migration](https://duplicator.com/knowledge-base/getting-started-with-migration/) - move your site to a new host or domain without the hassle
+- [One-click staging sites](https://duplicator.com/knowledge-base/creating-one-click-staging-site/) - test updates safely without touching your live site (Pro and above)
+- [Multisite network support](https://duplicator.com/knowledge-base/multisite-wordpress-backup-and-migration/) - back up and migrate entire WordPress multisite networks (Pro and above)
+- [WP Media Cleanup](https://wpmediacleanup.com/) - removes unused image bloat to shrink backup sizes (included free on Pro and above)
+- [Activity Log](https://duplicator.com/activity-log/) - full audit trail of logins, changes, and updates across your site (included free on Elite)
+- [Duplicator Cloud Storage](https://duplicator.com/pricing/#cloud) - native backup destination with no API tokens or authentication issues, and one-click cross-server restore
+
+---
+
 ## Products Available for Upsell
 
 ### 1. Duplicator Pro License Upgrade
@@ -216,6 +234,14 @@ The links should be sepeted from the main text with a clear call to action, like
 - WP Media Cleanup (Pro and above)
 - Activity Log (Elite only)
 - Duplicator Cloud Storage (all plans)
+
+---
+
+## Version Notes
+
+**Version 1.1** - Added Pro Features Overview block for context-aware value reinforcement
+- New section: Pro Features Overview Block (9 linked features) for use when customers ask "what would I actually get?" or when showing the full ecosystem value before a specific upsell
+- Features block synced from prevent-churn skill (canonical source)
 
 **Notes:**
 Don't use the ` or — (em dash) characters in the reply. Keep it simple with hyphens and standard punctuation.

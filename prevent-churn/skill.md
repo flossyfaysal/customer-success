@@ -95,7 +95,36 @@ A good churn-prevention response should:
 
 ---
 
+## Company Values Integration
+
+When processing a refund or handling a frustrated customer, reference the relevant company value as the reason behind the action.
+
+| Trigger | Value | How to use it |
+|---|---|---|
+| Offering a refund (full or partial) | **We Do The Right Thing** | Frame the refund as doing right by the customer - even partial refunds on non-refundable renewals are an exception made out of integrity |
+| Frustrated or upset customer | **We Fight for Our Customer's Success** | Frame the effort to retain and resolve as a commitment to their success - we only win when they win |
+
+**Phrasing guidance:**
+- For refunds: insert in the sentence that introduces or confirms the refund offer
+- For frustrated customers: insert in the empathetic opening as the stated reason for going above and beyond
+- One sentence is enough — the value explains *why*, then the action follows immediately
+
+**Examples:**
+
+Partial refund offer (renewal):
+> "We believe in doing the right thing, every time. Renewals are non-refundable per our terms, but because we want to make this right for you, we're happy to offer a 50% partial refund as an exception."
+
+Frustrated customer opening:
+> "We fight for our customers' success - we only win when you win. So let me make sure we get to the bottom of this and find you a real solution."
+
+---
+
 ## Version Notes
+
+**v2.4** — Company values integration
+- Added Company Values Integration section: Do The Right Thing for refunds, Customer's Success for frustrated customers
+- Updated scenarios/renewal-refund.md: Do The Right Thing framing in partial refund offer
+- Updated core/response-template.md: Customer's Success guidance in empathetic opening, Do The Right Thing in graceful exit refund step
 
 **v1.0** — Initial skill: core structure, 6 scenarios, tone calibration, phrase banks, 3 examples
 **v2.0** — Restructured into modular folders and files; added platform-exit scenario, loyalty-appreciation phrase bank, platform-exit example, and prompt library entry 002 (appreciation churn pattern)
